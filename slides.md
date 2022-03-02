@@ -36,6 +36,14 @@ drawings:
   <mdi-clock /> 5:30-7:00
   <mdi-map-marker /> Virtual
 </div>
+<div class="mt-2 text-gray-400">
+  <span class="bg-gray-800/50 p-2 rounded-3xl">
+    <mdi-github-face />
+    <a href="https://github.com/psse-cpu/ml-workshop/">Git repo</a>
+    <mdi-file-pdf class="ml-4" /> 
+    <a href="https://psse-cpu.github.io/ml-workshop/slides-export.pdf">PDF version</a>
+  </span>
+</div>
 
 <div class="abs-br m-6 flex rounded-4xl">
   <div class="bg-blue-800/40 p-2 text-gray-300 mr-0" style="border-radius: 4px 0px 0px 4px">
@@ -78,6 +86,14 @@ background: https://cdn.pixabay.com/photo/2018/05/08/08/46/artificial-intelligen
   <mdi-calendar /> March 14 & 15
   <mdi-clock /> 5:30-7:00
   <mdi-map-marker /> Virtual
+</div>
+<div class="mt-2 text-gray-400">
+  <span class="bg-gray-800/50 p-2 rounded-3xl">
+    <mdi-github-face />
+    <a href="https://github.com/psse-cpu/ml-workshop/">Git repo</a>
+    <mdi-file-pdf class="ml-4" /> 
+    <a href="https://psse-cpu.github.io/ml-workshop/slides-export.pdf">PDF version</a>
+  </span>
 </div>
 
 <div class="abs-br m-6 flex rounded-4xl">
@@ -188,21 +204,63 @@ M --> R[Rules]
 layout: center
 ---
 
+# Artificial Neurons
+
+<img alt="neuron" src="/images/neuron.png" style="width: 500px; height: 420px"  />
+
+
+---
+layout: center
+---
+
 # Artificial Neural Networks
+1 hidden layer
 
-<img alt="neuron" src="/images/neuron.png"  />
-
-
----
-layout: center
----
-
-![ann-1hidden](/images/ann-1hidden.png)
+<img alt="ann1" src="/images/ann-1hidden.png" style="width: 520px; height: 420px"  />
 
 
 ---
 layout: center
 ---
 
-![ann-1hidden](/images/ann-2hidden.png)
+# Artificial Neural Networks
+2 hidden layers
 
+<img alt="ann2" src="/images/ann-2hidden.png" style="width: 650px; height: 420px"  />
+
+
+---
+layout: center
+---
+
+
+# Regression vs Classification
+
+<img alt="weather" src="/images/weather.png" style="width: 550px; height: 420px"  />
+
+
+---
+layout: center
+---
+
+# Regression vs Classification
+
+<img alt="grades" src="/images/grade.png" style="width: 550px; height: 420px"  />
+
+
+---
+layout: center
+---
+
+# Binary vs Multi-class Classification
+
+<img alt="binary-multi" src="/images/binary-vs-multi.png" style="width: 720px; height: 400px"  />
+
+
+---
+layout: center
+---
+
+# Multi-class Classification
+
+<img alt="multi" src="/images/one-vs-rest.png" style="width: 720px; height: 420px"  />
