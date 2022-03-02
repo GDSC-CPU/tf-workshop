@@ -7,8 +7,14 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.28.9",
+    "@slidev/theme-bricks": "^0.0.2",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "@slidev/theme-shibainu": "^0.0.2"
   },
-  "name": "ml-talk"
+  "name": "ml-talk",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.2",
+    "@iconify-json/mdi": "^1.1.0"
+  }
 }
