@@ -151,7 +151,7 @@ You can code in any language, preferably
   You are not allergic to
 </div>
 
-![math](images/math.png)
+![math](/images/math.png)
 
 
 ---
@@ -181,7 +181,7 @@ M --> R[Rules]
 
 - 💎 HARD 😱: code some complicated logic that tells apart a dog or a cat in a picture
 - ✌ _"EASY"_ ✌: give **tons** of examples of dogs and cats, and have the machine discover patterns
-  ![dog-cat](images/dog-cat.jpg)
+  ![dog-cat](/images/dog-cat.jpg)
 
 ---
 layout: center
@@ -189,17 +189,19 @@ layout: center
 
 # Artificial Neural Networks
 
-<img alt="neuron" src="images/neuron.png" style="width: 500px; height: 420px" />
-
----
-layout: center
----
-
-![ann-1hidden](images/ann-1hidden.png)
+<img alt="neuron" src="/images/neuron.png"  />
 
 
 ---
 layout: center
 ---
 
-![ann-1hidden](images/ann-2hidden.png)
+![ann-1hidden](/images/ann-1hidden.png)
+
+
+---
+layout: center
+---
+
+![ann-1hidden](/images/ann-2hidden.png)
+
