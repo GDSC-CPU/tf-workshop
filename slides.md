@@ -24,6 +24,7 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
+dowmload: true
 ---
 
 # Machine Learning in 3 Hours
