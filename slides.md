@@ -1,5 +1,6 @@
 ---
 # try also 'default' to start simple
+dowmload: 'https://psse-cpu.github.io/ml-workshop/slides-export.pdf'
 theme: seriph
 fonts:
   sans: 'Tinos'
@@ -24,7 +25,6 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
-dowmload: 'https://psse-cpu.github.io/ml-workshop/slides-export.pdf'
 ---
 
 # Machine Learning in 3 Hours
