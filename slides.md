@@ -189,8 +189,7 @@ layout: center
 
 # Artificial Neural Networks
 
-![neuron](images/neuron.png)
-
+<img alt="neuron" src="images/neuron.png" style="width: 500px; height: 420px" />
 
 ---
 layout: center
