@@ -1,3 +1,10 @@
+<style scoped>
+  .socials {
+    border-bottom: 0px;
+    margin-right: 4px;
+  }
+</style>
+
 <template>
 <div class="pt-12">
   <mdi-calendar /> March 14 & 15
@@ -18,7 +25,17 @@
     Richard Michael Coo
   </div>
   <div class="italic text-indigo-200 bg-blue-300/40 p-2 ml-0" style="border-radius: 0px 16px 16px 0px">
-    <logos-twitter /> <logos-github-icon /> <logos-gitlab /> @myknbani
+    <a href="https://twitter.com/myknbani" class="socials">
+      <logos-twitter />
+    </a>
+    <a href="https://github.com/myknbani" class="socials">
+      <logos-github-icon />
+    </a>
+    <a href="https://gitlab.com/myknbani" class="socials">
+      <logos-gitlab />
+    </a>
+
+    @myknbani
   </div>
 </div>
 
