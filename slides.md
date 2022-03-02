@@ -31,236 +31,50 @@ drawings:
 
 <b>ECE 4241</b> Seminars / Colloquium / Field Study
 
-<div class="pt-12">
-  <mdi-calendar /> March 14 & 15
-  <mdi-clock /> 5:30-7:00
-  <mdi-map-marker /> Virtual
-</div>
-<div class="mt-2 text-gray-400">
-  <span class="bg-gray-800/50 p-2 rounded-3xl">
-    <mdi-github-face />
-    <a href="https://github.com/psse-cpu/ml-workshop/">Git repo</a>
-    <mdi-file-pdf class="ml-4" /> 
-    <a href="https://psse-cpu.github.io/ml-workshop/slides-export.pdf">PDF version</a>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex rounded-4xl">
-  <div class="bg-blue-800/40 p-2 text-gray-300 mr-0" style="border-radius: 4px 0px 0px 4px">
-    Richard Michael Coo
-  </div>
-  <div class="italic text-indigo-200 bg-blue-300/40 p-2 ml-0" style="border-radius: 0px 16px 16px 0px">
-    <logos-twitter /> <logos-github-icon /> <logos-gitlab /> @myknbani
-  </div>
-</div>
-
-<p class="font-xs italic absolute bottom-2 left-0 opacity-30 transform -rotate-4">
-  Slides work better in "Dark Mode", press <kbd class="not-italic">D</kbd> to toggle.
-</p>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+<!-- ./components/CoverDetails.vue -->
+<CoverDetails />
 
 ---
-layout: image-right
-image: images/impossible4.png
+src: ./slides/intro/impossible.md
 ---
-# Which is impossible
-
-<p class="pt-24 text-3xl">It's a <b class="text-5xl">HUGE</b> field</p>
-
-<h3 class="mt-24">so let's try...</h3>
-
 ---
-layout: cover
-background: https://cdn.pixabay.com/photo/2018/05/08/08/46/artificial-intelligence-3382509_960_720.png
+src: ./slides/intro/cover-2.md
 ---
-
-## ~~Machine Learning in 3 Hours~~
-# Neural Networks in 3 Hours
-
-<b>ECE 4241</b> Seminars / Colloquium / Field Study
-
-<div class="pt-12">
-  <mdi-calendar /> March 14 & 15
-  <mdi-clock /> 5:30-7:00
-  <mdi-map-marker /> Virtual
-</div>
-<div class="mt-2 text-gray-400">
-  <span class="bg-gray-800/50 p-2 rounded-3xl">
-    <mdi-github-face />
-    <a href="https://github.com/psse-cpu/ml-workshop/">Git repo</a>
-    <mdi-file-pdf class="ml-4" /> 
-    <a href="https://psse-cpu.github.io/ml-workshop/slides-export.pdf">PDF version</a>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex rounded-4xl">
-  <div class="bg-blue-800/40 p-2 text-gray-300 mr-0" style="border-radius: 4px 0px 0px 4px">
-    Richard Michael Coo
-  </div>
-  <div class="italic text-indigo-200 bg-blue-300/40 p-2 ml-0" style="border-radius: 0px 16px 16px 0px">
-    <logos-twitter /> <logos-github-icon /> <logos-gitlab /> @myknbani
-  </div>
-</div>
-
-<p class="font-xs italic absolute bottom-2 left-0 opacity-30 transform -rotate-4">
-  Slides work better in "Dark Mode", press <kbd class="not-italic">D</kbd> to toggle.
-</p>
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
-layout: two-cols
+src: ./slides/intro/outline.md
 ---
-
-# Day 1
-- Theory
-  * machine learning
-  * neural networks
-  * regression vs classification
-- Tools Familiarization
-  * <logos-jupyter /> Jupyter Notebook
-  * <logos-tensorflow /> Tensorflow
-- Workshop
-  * linear regression
-  * logistic regression
-  * intuition on approximating functions
-  * vanilla neural networks
-  * experiments
-- Video (ALVINN)
-
-::right::
-
-# Day 2
-- More intense 💪 workshops
-  * convolutional neural networks (CNN)
-  * convolutional layers
-  * pooling layers
-  * training with your own images
-- Final advice
-- Video: Cassava Plant Disease Detection
-- Closing
-
 ---
-layout: two-cols
----
-
-# Assumptions
-
-You can code in any language, preferably
-
-<logos-python style="width: 128px; height: 128px" />
-
-- variables
-- control structures
-   * if-statements
-   * loops
-- OOP
-  * basics of classes and objects
-  * operator overloading is a ➕
-
-::right::
-
-<div class="mt-12 text-gray-500">
-  You are not allergic to
-</div>
-
-![math](/images/math.png)
-
-
----
-layout: two-cols
----
-
-# Machine Learning
-
-```mermaid {theme: 'dark', scale: 1.2}
-graph LR
-R[Rules] --> T((Traditional<br>Programming))
-D[Data]  --> T
-
-T --> A[Answers]
-```
-
-A new paradigm
-
-```mermaid {theme: 'dark', scale: 1.1}
-graph LR
-A[Answers] --> M((Machine Learning))
-D[Data]  --> M
-M --> R[Rules]
-```
-
-::right::
-
-- 💎 HARD 😱: code some complicated logic that tells apart a dog or a cat in a picture
-- ✌ _"EASY"_ ✌: give **tons** of examples of dogs and cats, and have the machine discover patterns
-  ![dog-cat](/images/dog-cat.jpg)
-
----
-layout: center
----
-
-# Artificial Neurons
-
-<img alt="neuron" src="/images/neuron.png" style="width: 500px; height: 420px"  />
-
-
----
-layout: center
----
-
-# Artificial Neural Networks
-1 hidden layer
-
-<img alt="ann1" src="/images/ann-1hidden.png" style="width: 520px; height: 420px"  />
-
-
----
-layout: center
----
-
-# Artificial Neural Networks
-2 hidden layers
-
-<img alt="ann2" src="/images/ann-2hidden.png" style="width: 650px; height: 420px"  />
-
-
----
-layout: center
+src: ./slides/intro/assumptions.md
 ---
 
 
-# Regression vs Classification
-
-<img alt="weather" src="/images/weather.png" style="width: 550px; height: 420px"  />
-
-
 ---
-layout: center
+src: ./slides/theory/ml.md
 ---
-
-# Regression vs Classification
-
-<img alt="grades" src="/images/grade.png" style="width: 550px; height: 420px"  />
-
-
 ---
-layout: center
+src: ./slides/theory/arthur-samuel.md
 ---
-
-# Binary vs Multi-class Classification
-
-<img alt="binary-multi" src="/images/binary-vs-multi.png" style="width: 720px; height: 400px"  />
-
-
 ---
-layout: center
+src: ./slides/theory/tom-mitchell.md
 ---
-
-# Multi-class Classification
-
-<img alt="multi" src="/images/one-vs-rest.png" style="width: 720px; height: 420px"  />
+---
+src: ./slides/theory/neurons.md
+---
+---
+src: ./slides/theory/ann-1hidden.md
+---
+---
+src: ./slides/theory/ann-2hidden.md
+---
+---
+src: ./slides/theory/regression-classification-1.md
+---
+---
+src: ./slides/theory/regression-classification-2.md
+---
+---
+src: ./slides/theory/binary-multi.md
+---
+---
+src: ./slides/theory/one-vs-rest.md
+---
