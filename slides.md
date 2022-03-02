@@ -24,7 +24,7 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
-dowmload: true
+dowmload: https://psse-cpu.github.io/ml-workshop/slides-export.pdf
 ---
 
 # Machine Learning in 3 Hours
