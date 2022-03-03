@@ -4,7 +4,7 @@ layout: two-cols
 
 # [<logos-google /> Colab](https://colab.research.google.com/)
 
-Colab, or "Colaboratory"
+"Colaboratory"
 
 - <mdi-cloud class="text-blue-400" /> cloud-based, zero configuration required
   * you don't need a Python environment installed
@@ -32,7 +32,7 @@ Colab, or "Colaboratory"
     <logos-scala /> <logos-julia /> <logos-r-lang /> <logos-javascript />
   </span> can use any language
 
-<mdi-heart class="text-blue-600" /> Colab GPUs, but also <mdi-heart class="text-yellow-500" /> your own VSCode setup?
+<mdi-heart class="text-yellow-500" /> Colab GPUs, but also <mdi-heart class="text-blue-600" /> your own VSCode setup?
 <a 
   href="https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb">
   <img alt="both" src="/images/why-not-both.gif" />

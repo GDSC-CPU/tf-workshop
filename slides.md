@@ -91,5 +91,11 @@ src: ./slides/tools/jupyter-2.md
 src: ./slides/tools/jupyter-3.md
 ---
 ---
+src: ./slides/tools/crowdflower.md
+---
+---
+src: ./slides/tools/data-cleaning.md
+---
+---
 src: ./slides/tools/jupyter-how.md
 ---
