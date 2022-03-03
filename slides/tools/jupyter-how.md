@@ -4,7 +4,7 @@ layout: two-cols
 
 # [<logos-google /> Colab](https://colab.research.google.com/)
 
-"Colaboratory"
+Google "Colaboratory"
 
 - <mdi-cloud class="text-blue-400" /> cloud-based, zero configuration required
   * you don't need a Python environment installed

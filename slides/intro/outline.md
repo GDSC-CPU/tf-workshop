@@ -9,7 +9,7 @@ layout: two-cols
   * regression vs classification
 - Tools Familiarization
   * <logos-jupyter /> Jupyter Notebook
-  * <logos-tensorflow /> Tensorflow
+  * <logos-tensorflow /> TensorFlow
 - Workshop
   * linear regression
   * logistic regression

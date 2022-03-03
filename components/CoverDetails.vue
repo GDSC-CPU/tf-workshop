@@ -40,6 +40,6 @@
 </div>
 
 <p class="font-xs italic absolute bottom-2 left-0 opacity-30 transform -rotate-4">
-  Slides work better in "Dark Mode", press <kbd class="not-italic">D</kbd> to toggle.
+  Some slides work better in "Dark Mode", press <kbd class="not-italic">D</kbd> to toggle.
 </p>
 </template>

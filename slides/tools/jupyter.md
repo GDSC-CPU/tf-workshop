@@ -3,7 +3,7 @@
 * Jupyter notebooks can illustrate the exploration and analysis process step by step and allows
   easy switching between
   - explanatory text in <mdi-markdown /> Markdown format
-  - equations $\Theta = (X^TX)^{-1} \cdot (X^Ty)$
+    + can contain equations $\Theta = (X^TX)^{-1} \cdot (X^Ty)$
   - code
     ```py
     def normal_equation(X, y):

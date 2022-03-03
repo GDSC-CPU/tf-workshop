@@ -99,3 +99,6 @@ src: ./slides/tools/data-cleaning.md
 ---
 src: ./slides/tools/jupyter-how.md
 ---
+---
+src: ./slides/tools/tensorflow.md
+---
