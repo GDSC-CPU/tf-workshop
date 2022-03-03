@@ -18,8 +18,7 @@ highlighter: shiki
 lineNumbers: true
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  Slides for ML Workshop.
 
   Learn more at [Sli.dev](https://sli.dev)
 # persist drawings in exports and build
@@ -27,7 +26,7 @@ drawings:
   persist: false
 ---
 
-# Machine Learning in 3 Hours
+# Artificial Intelligence in 3 Hours
 
 <b>ECE 4241</b> Seminars / Colloquium / Field Study
 
@@ -73,8 +72,21 @@ src: ./slides/theory/regression-classification-1.md
 src: ./slides/theory/regression-classification-2.md
 ---
 ---
+src: ./slides/theory/spam.md
+---
+---
 src: ./slides/theory/binary-multi.md
 ---
 ---
 src: ./slides/theory/one-vs-rest.md
+---
+
+---
+src: ./slides/tools/jupyter.md
+---
+---
+src: ./slides/tools/jupyter-2.md
+---
+---
+src: ./slides/tools/jupyter-3.md
 ---
