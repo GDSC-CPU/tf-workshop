@@ -102,3 +102,20 @@ src: ./slides/tools/jupyter-how.md
 ---
 src: ./slides/tools/tensorflow.md
 ---
+
+
+---
+src: ./slides/workshop/recall.md
+---
+---
+src: ./slides/workshop/power-neuron.md
+---
+---
+src: ./slides/workshop/bias.md
+---
+---
+src: ./slides/workshop/bias-2.md
+---
+---
+src: ./slides/workshop/y-mx-plus-b.md
+---

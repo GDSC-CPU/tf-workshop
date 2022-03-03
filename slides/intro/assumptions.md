@@ -10,7 +10,8 @@ You can code in any language, preferably
 
 - variables
 - control structures (`if-else`, loops)
-- data structures (list, map)
+- sequences (strings, lists, tuples)
+  * knowing dictionaries and `**kwargs` is a ➕
 - functions
 - OOP
   * basics of classes and objects
