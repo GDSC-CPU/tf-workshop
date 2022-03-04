@@ -119,3 +119,36 @@ src: ./slides/workshop/bias-2.md
 ---
 src: ./slides/workshop/y-mx-plus-b.md
 ---
+---
+src: ./slides/workshop/guess-lines.md
+---
+---
+src: ./slides/workshop/guess-lines-2.md
+---
+---
+src: ./slides/workshop/loss.md
+---
+---
+src: ./slides/workshop/mse.md
+---
+---
+src: ./slides/workshop/code-excited.md
+---
+---
+src: ./slides/workshop/lots.md
+---
+---
+src: ./slides/workshop/vectorization-1.md
+---
+---
+src: ./slides/workshop/what.md
+---
+---
+src: ./slides/workshop/vectorization-2.md
+---
+---
+src: ./slides/workshop/vectorized-bench-1.md
+---
+---
+src: ./slides/workshop/vectorized-bench-2.md
+---

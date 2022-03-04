@@ -16,6 +16,7 @@
   "name": "ml-talk",
   "devDependencies": {
     "@iconify-json/logos": "^1.1.2",
-    "@iconify-json/mdi": "^1.1.0"
+    "@iconify-json/mdi": "^1.1.0",
+    "@iconify-json/twemoji": "^1.1.1"
   }
 }
