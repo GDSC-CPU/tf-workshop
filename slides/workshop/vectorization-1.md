@@ -46,6 +46,6 @@ layout: two-cols
     \hat{y} = Xw
   $$
 
-- and finally $\frac{1}{m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$
-  + is vectorized as: $\frac{1}{m}(\hat{y} - y)^T(\hat{y} - y)$
-  + also equivalent to: $\frac{1}{m}(Xw - y)^T(Xw - y)$
+- and finally $\frac{1}{2m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$
+  + is vectorized as: $\frac{1}{2m}(\hat{y} - y)^T(\hat{y} - y)$
+  + also equivalent to: $\frac{1}{2m}(Xw - y)^T(Xw - y)$

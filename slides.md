@@ -132,6 +132,9 @@ src: ./slides/workshop/loss.md
 src: ./slides/workshop/mse.md
 ---
 ---
+src: ./slides/workshop/remember-mse.md
+---
+---
 src: ./slides/workshop/code-excited.md
 ---
 ---
@@ -151,4 +154,34 @@ src: ./slides/workshop/vectorized-bench-1.md
 ---
 ---
 src: ./slides/workshop/vectorized-bench-2.md
+---
+---
+src: ./slides/workshop/fast.md
+---
+---
+src: ./slides/workshop/feasible.md
+---
+---
+src: ./slides/workshop/optimizer.md
+---
+---
+src: ./slides/workshop/cost-function-plot.md
+---
+---
+src: ./slides/workshop/cost-function-plot-2.md
+---
+---
+src: ./slides/workshop/gradient-descent-1.md
+---
+---
+src: ./slides/workshop/gradient-descent-2.md
+---
+---
+src: ./slides/workshop/sgd.md
+---
+---
+src: ./slides/workshop/remember-sgd.md
+---
+---
+src: ./slides/workshop/linear-regression.md
 ---
