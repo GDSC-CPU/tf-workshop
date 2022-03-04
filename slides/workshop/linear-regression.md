@@ -33,14 +33,15 @@ from tensorflow import keras
 x = house_prices[:, [0]]
 y = house_prices[:, [1]]
 
-# just one unit for the neuron (output) and one input
+# just one unit, an output neuron and one input
 model = keras.Sequential([
   keras.layers.Dense(units=1, input_shape=[1])
 ])
 
 # remember these?
+mse = tf.keras.losses.MeanSquaredError()
 sgd = tf.keras.optimizers.SGD(learning_rate=0.005)
-model.compile(loss='mean_squared_error', optimizer=sgd)
+model.compile(loss=mse, optimizer=sgd)
 model.fit(x, y, epochs=500)
 
 model.predict(np.array([
