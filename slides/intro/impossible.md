@@ -4,6 +4,9 @@ image: images/impossible4.png
 ---
 # Which is impossible
 
-<p class="pt-24 text-3xl">It's a <b class="text-5xl">HUGE</b> field</p>
+<img alt="venn" src="/images/venn.png" style="width: 350px; height: 350px;" />
 
-<h3 class="mt-24">so let's try...</h3>
+<h3 class="mt-4 text-blue-300">
+  <span class="text-5xl">HUGE</span> field, 
+  <span class="italic text-gray-400 text-3xl">so let's try...</span>
+</h3>
