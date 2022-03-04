@@ -185,3 +185,6 @@ src: ./slides/workshop/remember-sgd.md
 ---
 src: ./slides/workshop/linear-regression.md
 ---
+---
+src: ./slides/workshop/difference.md
+---
