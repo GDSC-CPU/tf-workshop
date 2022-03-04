@@ -5,7 +5,7 @@ theme: seriph
 fonts:
   sans: 'Tinos'
   serif: 'Tinos'
-  mono: 'Space Mono'
+  mono: 'Fira Code'
   italic: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
