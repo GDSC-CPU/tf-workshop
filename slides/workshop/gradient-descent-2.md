@@ -10,7 +10,9 @@
   $\frac{\partial}{\partial{w}}J(w) = \frac{1}{m}X^T(Xw - y)$
 
 <div class="text-gray-500 italic">
-  If interested in the derivation, [see this][1], and stop when you reach this part:
+  If interested in the derivation,  
+  <a href="https://ayearofai.com/rohan-3-deriving-the-normal-equation-using-matrix-calculus-1a1b16f65dda">see this</a>
+  and stop when you reach this part:
   <img alt="stop" src="/images/stop.png" style="display: inline; width: 250px; height: 40px" />
 </div>
 
@@ -22,5 +24,4 @@
   
 - $w$ should now be optimized
 
-[1]: https://ayearofai.com/rohan-3-deriving-the-normal-equation-using-matrix-calculus-1a1b16f65dda
 [2]: https://medium.com/@shiny_jay/linear-regression-2c2ae9507aba
