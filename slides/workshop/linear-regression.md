@@ -29,25 +29,22 @@ import tensorflow as tf
 import numpy as np
 from tensorflow import keras
 
+# separate matrix into input (x) and output (y)
 x = house_prices[:, [0]]
 y = house_prices[:, [1]]
 
+# just one unit for the neuron (output) and one input
 model = keras.Sequential([
   keras.layers.Dense(units=1, input_shape=[1])
 ])
 
+# remember these?
 sgd = tf.keras.optimizers.SGD(learning_rate=0.005)
-mse = tf.keras.losses.MeanSquaredError()
-
-model.compile(
-  loss=mse, 
-  optimizer=sgd
-)
-
+model.compile(loss='mean_squared_error', optimizer=sgd)
 model.fit(x, y, epochs=500)
 
 model.predict(np.array([
-  [8],
-  [12]
+  [8],  # how much is an 80 sq.m. house?
+  [12], # how much is a 120 sq.m. house?
 ]))
 ```
