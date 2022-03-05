@@ -144,7 +144,7 @@ src: ./slides/workshop/lots.md
 src: ./slides/workshop/vectorization-1.md
 ---
 ---
-src: ./slides/workshop/what.md
+src: ./slides/workshop/vectorized-demo.md
 ---
 ---
 src: ./slides/workshop/vectorization-2.md
@@ -160,6 +160,9 @@ src: ./slides/workshop/fast.md
 ---
 ---
 src: ./slides/workshop/feasible.md
+---
+---
+src: ./slides/workshop/fun-fact.md
 ---
 ---
 src: ./slides/workshop/optimizer.md
@@ -187,4 +190,7 @@ src: ./slides/workshop/linear-regression.md
 ---
 ---
 src: ./slides/workshop/difference.md
+---
+---
+src: ./slides/workshop/congrats-linear.md
 ---

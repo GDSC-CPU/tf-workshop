@@ -1,4 +1,4 @@
-# That seems easy to code, let's code <twemoji-man-technologist /><twemoji-woman-technologist />
+# That seems easy to code, exciting! <twemoji-man-technologist /><twemoji-woman-technologist /><twemoji-woman-cartwheeling class="animate-spin" /><twemoji-growing-heart class="animate-ping" />
 
 ```py
 total = 0

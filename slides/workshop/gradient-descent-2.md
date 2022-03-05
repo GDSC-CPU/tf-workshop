@@ -9,11 +9,14 @@
 
   $\frac{\partial}{\partial{w}}J(w) = \frac{1}{m}X^T(Xw - y)$
 
-<div class="text-gray-500 italic">
-  If interested in the derivation,  
-  <a href="https://ayearofai.com/rohan-3-deriving-the-normal-equation-using-matrix-calculus-1a1b16f65dda">see this</a>
-  and stop when you reach this part:
-  <img alt="stop" src="/images/stop.png" style="display: inline; width: 250px; height: 40px" />
+<div class="italic text-xs text-gray-400">
+  If interested in the derivation, see
+  <a href="https://ayearofai.com/rohan-3-deriving-the-normal-equation-using-matrix-calculus-1a1b16f65dda">
+    this article on the Normal Equation
+  </a> or 
+  <a href="https://medium.com/@shiny_jay/linear-regression-2c2ae9507aba">maybe this</a>
+  and stop when you reach the part that says
+  <code>Cost'(θ) = 2X<sup>T</sup>Xθ - 2X<sup>T</sup>y</code>
 </div>
 
 - Gradient descent is just a loop:
