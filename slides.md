@@ -57,15 +57,6 @@ src: ./slides/theory/arthur-samuel.md
 src: ./slides/theory/tom-mitchell.md
 ---
 ---
-src: ./slides/theory/neurons.md
----
----
-src: ./slides/theory/ann-1hidden.md
----
----
-src: ./slides/theory/ann-2hidden.md
----
----
 src: ./slides/theory/regression-classification-1.md
 ---
 ---
@@ -79,6 +70,15 @@ src: ./slides/theory/binary-multi.md
 ---
 ---
 src: ./slides/theory/one-vs-rest.md
+---
+---
+src: ./slides/theory/neurons.md
+---
+---
+src: ./slides/theory/ann-1hidden.md
+---
+---
+src: ./slides/theory/ann-2hidden.md
 ---
 
 ---
@@ -180,6 +180,15 @@ src: ./slides/workshop/gradient-descent-1.md
 src: ./slides/workshop/gradient-descent-2.md
 ---
 ---
+src: ./slides/workshop/gradient-descent-3.md
+---
+---
+src: ./slides/workshop/learning-rate.md
+---
+---
+src: ./slides/workshop/hyperparams.md
+---
+---
 src: ./slides/workshop/sgd.md
 ---
 ---
@@ -187,9 +196,6 @@ src: ./slides/workshop/remember-sgd.md
 ---
 ---
 src: ./slides/workshop/linear-regression.md
----
----
-src: ./slides/workshop/difference.md
 ---
 ---
 src: ./slides/workshop/congrats-linear.md

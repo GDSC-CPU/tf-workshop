@@ -23,8 +23,8 @@
 
   `start with a random ` $w$ ` vector`  
   `repeat for several iterations:`  
-      &nbsp; &nbsp; &nbsp; &nbsp; $w = w - \alpha  \frac{\partial}{\partial{w}}J(w)$
-  
+      &nbsp; &nbsp; &nbsp; &nbsp; $w = w - \alpha  \frac{\partial}{\partial{w}}J(w)$ 
+
 - $w$ should now be optimized
 
 [2]: https://medium.com/@shiny_jay/linear-regression-2c2ae9507aba
