@@ -21,7 +21,7 @@
 
 - Gradient descent is just a loop:
 
-  `start with a random ` $w$ ` vector`  
+  `start with a "random-ish" ` $w$ ` vector`  
   `repeat for several iterations:`  
       &nbsp; &nbsp; &nbsp; &nbsp; $w = w - \alpha  \frac{\partial}{\partial{w}}J(w)$ 
 
