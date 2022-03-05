@@ -4,7 +4,7 @@ layout: two-cols
 
 # [Hyperparameters](https://towardsdatascience.com/parameters-and-hyperparameters-aa609601a9ac)
 
-- set/***tuned*** by **us** - *the machine learning practitioners*
+- set / ***tuned*** by **us** - *the machine learning practitioners*
 - parameters whose values control the learning process
 - these values **cannot** be changed by the ML model
 - we've already learned **two**
