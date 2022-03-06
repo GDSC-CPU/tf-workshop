@@ -13,7 +13,7 @@
 
 <h3 class="text-orange-500">TL:DR -- This saves dramatic amounts of computation time.</h3>
 
-> 👎 [The downside of stochastic gradient descent is that it doesn’t find the true minimum as reliably. Instead it has a tendency to get extremely close...][1]
+> 👎 [The downside of stochastic gradient descent is that it doesn’t find the true minimum as reliably. Instead it has a tendency to get extremely close, then circle the minimum forever. ][1]
 
  <logos-tensorflow /> Tensorflow doesn't have the [BGD][2] built-in 
  <small class="text-gray-500">_(many beginner tutorials teach the simpler BGD)_</small>,
