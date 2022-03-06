@@ -132,7 +132,10 @@ src: ./slides/workshop/loss.md
 src: ./slides/workshop/mse.md
 ---
 ---
-src: ./slides/workshop/remember-mse.md
+src: ./slides/workshop/vectorization-1.md
+---
+---
+src: ./slides/workshop/vectorized-demo.md
 ---
 ---
 src: ./slides/workshop/code-excited.md
@@ -141,19 +144,13 @@ src: ./slides/workshop/code-excited.md
 src: ./slides/workshop/lots.md
 ---
 ---
-src: ./slides/workshop/vectorization-1.md
----
----
-src: ./slides/workshop/vectorized-demo.md
----
----
 src: ./slides/workshop/vectorization-2.md
 ---
 ---
-src: ./slides/workshop/vectorized-bench-1.md
----
----
 src: ./slides/workshop/vectorized-bench-2.md
+---
+---
+src: ./slides/workshop/vectorized-bench-1.md
 ---
 ---
 src: ./slides/workshop/fast.md
@@ -163,6 +160,9 @@ src: ./slides/workshop/feasible.md
 ---
 ---
 src: ./slides/workshop/fun-fact.md
+---
+---
+src: ./slides/workshop/remember-mse.md
 ---
 ---
 src: ./slides/workshop/optimizer.md
@@ -181,9 +181,6 @@ src: ./slides/workshop/gradient-descent-2.md
 ---
 ---
 src: ./slides/workshop/gradient-descent-3.md
----
----
-src: ./slides/workshop/learning-rate.md
 ---
 ---
 src: ./slides/workshop/hyperparams.md

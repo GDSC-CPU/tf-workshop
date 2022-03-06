@@ -1,20 +1,58 @@
-# That seems easy to code, exciting! <twemoji-man-technologist /><twemoji-woman-technologist /><twemoji-woman-cartwheeling class="animate-spin" /><twemoji-growing-heart class="animate-ping" />
+---
+layout: two-cols
+---
+
+# Unvectorized 🐢
+
+<div></div>
+
+$Cost(w_1, w_0) = \frac{1}{2m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$
 
 ```py
-total = 0
-for i in range(m):
-    y_hat = w1 * x1[i] + w0
-    total += (yhat - y[i]) ** 2
+def cost(x1, y, w1, w0)
+  total = 0
+  m = len(x1)
 
-mse = total / m
+  for i in range(m):
+      y_hat_i = w1 * x1[i] + w0
+      total += (y_hat_i - y[i]) ** 2
+
+  return total * 0.5 * m
 ```
 
-Not so fast...<twemoji-man-running /><twemoji-woman-running />
+- sequential operations
+- **will not scale**
+  * $w_1x_1 + w_2x_2 + w_3x_3 + ... + w_{10000}x_{10000}$
+    - **PER NEURON**
+  * lots of neurons per layer
 
-- doing this for 10,000 inputs with 60,000 training data using a loop **will not scale**
-  * we'll have more inputs ($w_1x_1 + w_2x_2 + w_3x_3 + ... + w_{10000}x_{10000}$)
-  * we'll have more neurons with their own weights
-    + that's another batch of $w_1x_1 + w_2x_2 + w_3x_3 + ... + w_{10000}x_{10000}$
-  * that loop will execute 60k times, and each loop will perform 10k multiplications and additions
+::right::
 
-## lots of data understandable, but seriously, 10,000 inputs?
+# Vectorized 🐇
+
+<div class="mt-6"></div>
+
+$Cost(w) = \frac{1}{2m}(Xw - y)^T(Xw - y)$
+
+<div class="mt-8"></div>
+
+```py
+def cost(X, y, w):
+    m = X.shape[0]
+    return 0.5 * m * (X @ w - y).T @ (X @ w - y)
+```
+
+- parallel operations
+- `X` is a matrix, `y` and `w` are vectors
+
+```py
+# working with matrices is normal in ML
+some_4x3_matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0, 0, 0]
+])
+```
+
+***lots of training data understandable, but seriously, can we reach 10k inputs?***

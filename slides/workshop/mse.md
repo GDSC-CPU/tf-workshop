@@ -2,13 +2,12 @@
 layout: center
 ---
 
-# Mean-square error
+# Mean-square error (MSE)
 
 - Squaring values also make them positive, and **penalizes bigger errors.**
 
-$$
-\frac{1}{m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2
-$$
+$MSE = \frac{1}{m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$ &nbsp; &nbsp; &nbsp; &nbsp; 
+where $\hat{y}_i = w_1x_{1i} + w_0$
 
 - Some mathematicians also halve this mean, which is still proportional, for a very cool reason 😉
   $\frac{1}{2m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$
