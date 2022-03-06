@@ -197,3 +197,6 @@ src: ./slides/workshop/linear-regression.md
 ---
 src: ./slides/workshop/congrats-linear.md
 ---
+---
+src: ./slides/workshop/multivariate.md
+---
