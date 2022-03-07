@@ -214,3 +214,15 @@ src: ./slides/workshop/congrats-linear.md
 ---
 src: ./slides/workshop/multivariate.md
 ---
+---
+src: ./slides/workshop/feature-scaling.md
+---
+---
+src: ./slides/workshop/feature-scaling-2.md
+---
+---
+src: ./slides/workshop/feature-scaling-code.md
+---
+---
+src: ./slides/workshop/univariate-workshop.md
+---
