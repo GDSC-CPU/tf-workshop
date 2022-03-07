@@ -8,23 +8,25 @@ layout: two-cols
 
 $Cost(w_1, w_0) = \frac{1}{2m} \sum\limits_{i = 1}^{m}(y_i - \hat{y_i})^2$
 
+where $\hat{y} = w_1x_{1i} + w_0$
+
 ```py
 def cost(x1, y, w1, w0)
-  total = 0
-  m = len(x1)
+    total = 0
+    m = len(x1)
 
-  for i in range(m):
-      y_hat_i = w1 * x1[i] + w0
-      total += (y_hat_i - y[i]) ** 2
+    for i in range(m):
+        y_hat_i = w1 * x1[i] + w0
+        total += (y_hat_i - y[i]) ** 2
 
-  return total * 0.5 * m
+    return total * 0.5 * m
 ```
 
-- sequential operations
+- sequential operations / single-threaded
 - **will not scale**
-  * $w_1x_1 + w_2x_2 + w_3x_3 + ... + w_{10000}x_{10000}$
-    - **PER NEURON**
-  * lots of neurons per layer
+- [writing your own custom loss functions in <logos-tensorflow /> requires vectorization][1]
+
+[1]: https://towardsdatascience.com/creating-custom-loss-functions-using-tensorflow-2-96c123d5ce6c
 
 ::right::
 
@@ -34,8 +36,6 @@ def cost(x1, y, w1, w0)
 
 $Cost(w) = \frac{1}{2m}(Xw - y)^T(Xw - y)$
 
-<div class="mt-8"></div>
-
 ```py
 def cost(X, y, w):
     m = X.shape[0]
@@ -44,15 +44,14 @@ def cost(X, y, w):
 
 - parallel operations
 - `X` is a matrix, `y` and `w` are vectors
-
-```py
-# working with matrices is normal in ML
-some_4x3_matrix = np.array([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [0, 0, 0]
-])
-```
-
-***lots of training data understandable, but seriously, can we reach 10k inputs?***
+- **BONUS**: more succinct code
+  + almost looks like the equation
+- BTW: in Python
+  - `@` - **THE** matrix multiplication (<mdi-check class="text-green-500" /> most of the ⏳)
+  - `*` - element-wise multiplication (<mdi-close class="text-red-500" /> most of the ⏳)
+  
+$$
+\begin{bmatrix}a & b \\ c & d \end{bmatrix} * 
+\begin{bmatrix}w & x \\ y & z \end{bmatrix} =
+\begin{bmatrix}aw & bx \\ cy & dz \end{bmatrix}
+$$

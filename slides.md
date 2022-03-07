@@ -128,6 +128,15 @@ src: ./slides/workshop/feasible.md
 src: ./slides/workshop/fun-fact.md
 ---
 ---
+src: ./slides/workshop/numpy.md
+---
+---
+src: ./slides/workshop/recall.md
+---
+---
+src: ./slides/workshop/hello-tf.md
+---
+---
 src: ./slides/workshop/recall.md
 ---
 ---
@@ -158,16 +167,13 @@ src: ./slides/workshop/loss.md
 src: ./slides/workshop/mse.md
 ---
 ---
+src: ./slides/workshop/vectorization-1.md
+---
+---
 src: ./slides/workshop/vectorized-demo.md
 ---
 ---
 src: ./slides/workshop/code-excited.md
----
----
-src: ./slides/workshop/lots.md
----
----
-src: ./slides/workshop/vectorization-1.md
 ---
 ---
 src: ./slides/workshop/remember-mse.md
@@ -198,6 +204,9 @@ src: ./slides/workshop/sgd.md
 ---
 ---
 src: ./slides/workshop/remember-sgd.md
+---
+---
+src: ./slides/workshop/univariate-workshop.md
 ---
 ---
 src: ./slides/workshop/congrats-linear.md

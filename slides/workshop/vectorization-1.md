@@ -9,16 +9,11 @@ layout: two-cols
   }
 </style>
 
-# Vectorization
+# Unvectorized?
 
-- addition and multiplication are commutative
-  * safe to do in parallel
-- so is every entry of the summation
-  * we can split the load among several cores, _perhaps_:
-    + Core 1: $\sum\limits_{i = 0}^{10} (y_i - \hat{y}_i)^2$
-    + Core 2: $\sum\limits_{i = 11}^{20} (y_i - \hat{y}_i)^2$
+<img alt="dont" src="/images/dont.gif" style="width: 400px; height: 200px" />
 
-<img class="neuron" alt="neuron" src="/images/single-neuron.png" />
+<img class="neuron mt-4" alt="neuron" src="/images/single-neuron.png" />
 
 :: right::
 

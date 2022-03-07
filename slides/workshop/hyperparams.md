@@ -9,11 +9,14 @@ layout: two-cols
 - these values **cannot** be changed by the ML model
 - we've already learned **two**
   * learning rate $\alpha$
+    ```py
+    SGD(learning_rate=0.02)
+    ```
   * number of iterations (epochs)
+    ```py
+    model.fit(x, y, epochs=500)
+    ```
 - we'll also learn other hyperparams in the 2-day workshop
-  * choice of optimizer
-  * choice of actvation function
-  * choice of loss function
   * train-test split ratio
   * number of hidden layers in our NN
   * number of units (neurons) in each NN layer

@@ -8,8 +8,8 @@ layout: center
   <table>
     <thead>
       <tr>
-        <th>Size in ft<sup>2</sup></th>
-        <th>Price</th>
+        <th>Size in m<sup>2</sup></th>
+        <th>Price in ₱ ×10k</th>
       </tr>
     </thead>
     <tbody>

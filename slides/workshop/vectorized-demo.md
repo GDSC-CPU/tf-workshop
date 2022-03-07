@@ -3,7 +3,7 @@ layout: image-right
 image: https://i.imgflip.com/67dvmw.jpg
 ---
 
-# Vectorization
+# Vectorized sum of squares
 
 #### If the last slide is 😵💫🥴, they're the same!
 

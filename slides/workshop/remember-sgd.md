@@ -5,7 +5,7 @@ layout: fact
 <Congratz
   achievement="on knowing your first optimizer!"
   message="Remember its acronym: SGD"
-  secondary="Also remember the how and why."
+  secondary="Also remember and UNDERSTAND the how and why."
   caveat="You don't even have to know the partial derivatives  of loss functions like MSE"
 />
 

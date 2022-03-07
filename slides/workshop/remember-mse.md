@@ -5,7 +5,7 @@ layout: fact
 <Congratz
   achievement="on knowing your first loss function!"
   message="Remember its name: Mean Squared Error"
-  secondary="Also remember the how and why."
+  secondary="Also remember and UNDERSTAND the how and why."
   caveat="Even if you can't remember either formula"
 />
 

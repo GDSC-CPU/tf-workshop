@@ -11,11 +11,11 @@ You can code in any language, preferably
 - variables
 - control structures (`if-else`, loops)
 - sequences (strings, lists, tuples)
+  * destructuring is a ➕
   * knowing dictionaries and `**kwargs` is a ➕
 - functions
-- OOP
-  * basics of classes and objects
-  * operator overloading is a ➕
+- OOP basics
+  * getters, operator overloading is a ➕
 
 ::right::
 

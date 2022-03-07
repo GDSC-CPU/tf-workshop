@@ -1,13 +1,17 @@
 # [Stochastic Gradient Descent (SGD)][1]
 
+```py
+optimizer=keras.optimizers.SGD(learning_rate=0.02)
+```
+
 - based on the assumption that the errors are additive. 
   * The error at point one can be added to the error at point two, 
-    which can be added to the error at point three, and so on for all of the points.
+    which can be added to the error at point three, etc.
 - model doesn’t need to calculate the error at all points simultaneously - 
   _**a computationally expensive process**_
 - calculate the error at each point individually, and sum them together.
-- this assumption is ***almost*** always true
-- still, it’s best practice to think for a moment to ensure that it’s true in your problem
+- this assumption is ***almost*** always true.
+  <mdi-warning class="text-yellow-500" /> *Still, it’s best practice to ensure that it’s true in your problem.*
 
 <div class="mt-2"></div>
 
