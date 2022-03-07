@@ -29,4 +29,4 @@
 - but this introduces a _"problem"_ that the values are in different ranges
   + house size could range between 22 to 300 sq.m.
   + number of bedrooms could be 1 to 5
-  + age could be 1 to 115 👻🏠
+  + age could be 1 to 115 <twemoji-ghost class="animate-spin" /><twemoji-house class="animate-pulse" />
