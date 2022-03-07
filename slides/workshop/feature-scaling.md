@@ -10,7 +10,7 @@ Quoting from [Analytics Vidhya][1]:
 
 > ##### The presence of feature value X in the formula will affect the step size of the gradient descent. The difference in ranges of features will cause different step sizes for each feature. To ensure that the gradient descent moves smoothly towards the minima and that the steps for gradient descent are updated at the same rate for all the features, we scale the data before feeding it to the model.
 
-> #### **Having features on a similar scale can help the gradient descent converge more quickly towards the minima.**
+> #### **Having features on a similar scale can help the gradient descent _converge more quickly towards the minima_.**
 
 Quoting from the [Tensorflow tutorial on Basic Regression][2]:
 
@@ -23,3 +23,9 @@ Quoting from the [Tensorflow tutorial on Basic Regression][2]:
 [1]: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/
 
 [2]: https://www.tensorflow.org/tutorials/keras/regression#the_normalization_layer
+
+<style>
+  em {
+    text-decoration: underline
+  }
+</style>

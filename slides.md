@@ -224,5 +224,8 @@ src: ./slides/workshop/feature-scaling-2.md
 src: ./slides/workshop/feature-scaling-code.md
 ---
 ---
-src: ./slides/workshop/univariate-workshop.md
+src: ./slides/workshop/multivariate-workshop.md
+---
+---
+src: ./slides/workshop/congrats-linear-2.md
 ---

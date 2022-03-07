@@ -1,4 +1,4 @@
-# Multivariate is almost the same
+# Multivariate is ***almost*** the same
 
 - if you'll predict house price based on 3 **features**: the area ($x_1$), 
   number of bedrooms ($x_2$), and age of the house ($x_3$)...
