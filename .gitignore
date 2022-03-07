@@ -9,3 +9,4 @@ slides-export.pdf
 public/slides-export.pdf
 notebooks/*.jpg
 notebooks/*.png
+.vscode

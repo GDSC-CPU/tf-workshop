@@ -106,7 +106,7 @@ src: ./slides/tools/tensorflow.md
 ---
 src: ./slides/workshop-linear/hello.md
 ---
----
+--- 
 src: ./slides/workshop-linear/vectorization-2.md
 ---
 ---
@@ -228,4 +228,20 @@ src: ./slides/workshop-linear/multivariate-workshop.md
 ---
 ---
 src: ./slides/workshop-linear/congrats-linear-2.md
+---
+
+---
+src: ./slides/workshop-logistic/classification.md
+---
+---
+src: ./slides/workshop-logistic/linear-reg-classify.md
+---
+---
+src: ./slides/workshop-logistic/add-more.md
+---
+---
+src: ./slides/workshop-logistic/unbounded.md
+---
+---
+src: ./slides/workshop-logistic/superpower.md
 ---
