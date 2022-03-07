@@ -104,128 +104,128 @@ src: ./slides/tools/tensorflow.md
 ---
 
 ---
-src: ./slides/workshop/hello.md
+src: ./slides/workshop-linear/hello.md
 ---
 ---
-src: ./slides/workshop/vectorization-2.md
+src: ./slides/workshop-linear/vectorization-2.md
 ---
 ---
-src: ./slides/workshop/lots.md
+src: ./slides/workshop-linear/lots.md
 ---
 ---
-src: ./slides/workshop/vectorized-bench-2.md
+src: ./slides/workshop-linear/vectorized-bench-2.md
 ---
 ---
-src: ./slides/workshop/vectorized-bench-1.md
+src: ./slides/workshop-linear/vectorized-bench-1.md
 ---
 ---
-src: ./slides/workshop/fast.md
+src: ./slides/workshop-linear/fast.md
 ---
 ---
-src: ./slides/workshop/feasible.md
+src: ./slides/workshop-linear/feasible.md
 ---
 ---
-src: ./slides/workshop/fun-fact.md
+src: ./slides/workshop-linear/fun-fact.md
 ---
 ---
-src: ./slides/workshop/numpy.md
+src: ./slides/workshop-linear/numpy.md
 ---
 ---
-src: ./slides/workshop/recall.md
+src: ./slides/workshop-linear/recall.md
 ---
 ---
-src: ./slides/workshop/hello-tf.md
+src: ./slides/workshop-linear/hello-tf.md
 ---
 ---
-src: ./slides/workshop/recall.md
+src: ./slides/workshop-linear/recall.md
 ---
 ---
-src: ./slides/workshop/power-neuron.md
+src: ./slides/workshop-linear/power-neuron.md
 ---
 ---
-src: ./slides/workshop/bias.md
+src: ./slides/workshop-linear/bias.md
 ---
 ---
-src: ./slides/workshop/bias-2.md
+src: ./slides/workshop-linear/bias-2.md
 ---
 ---
-src: ./slides/workshop/y-mx-plus-b.md
+src: ./slides/workshop-linear/y-mx-plus-b.md
 ---
 ---
-src: ./slides/workshop/idea.md
+src: ./slides/workshop-linear/idea.md
 ---
 ---
-src: ./slides/workshop/guess-lines.md
+src: ./slides/workshop-linear/guess-lines.md
 ---
 ---
-src: ./slides/workshop/guess-lines-2.md
+src: ./slides/workshop-linear/guess-lines-2.md
 ---
 ---
-src: ./slides/workshop/loss.md
+src: ./slides/workshop-linear/loss.md
 ---
 ---
-src: ./slides/workshop/mse.md
+src: ./slides/workshop-linear/mse.md
 ---
 ---
-src: ./slides/workshop/vectorization-1.md
+src: ./slides/workshop-linear/vectorization-1.md
 ---
 ---
-src: ./slides/workshop/vectorized-demo.md
+src: ./slides/workshop-linear/vectorized-demo.md
 ---
 ---
-src: ./slides/workshop/code-excited.md
+src: ./slides/workshop-linear/code-excited.md
 ---
 ---
-src: ./slides/workshop/remember-mse.md
+src: ./slides/workshop-linear/remember-mse.md
 ---
 ---
-src: ./slides/workshop/optimizer.md
+src: ./slides/workshop-linear/optimizer.md
 ---
 ---
-src: ./slides/workshop/cost-function-plot.md
+src: ./slides/workshop-linear/cost-function-plot.md
 ---
 ---
-src: ./slides/workshop/cost-function-plot-2.md
+src: ./slides/workshop-linear/cost-function-plot-2.md
 ---
 ---
-src: ./slides/workshop/gradient-descent-1.md
+src: ./slides/workshop-linear/gradient-descent-1.md
 ---
 ---
-src: ./slides/workshop/gradient-descent-2.md
+src: ./slides/workshop-linear/gradient-descent-2.md
 ---
 ---
-src: ./slides/workshop/gradient-descent-3.md
+src: ./slides/workshop-linear/gradient-descent-3.md
 ---
 ---
-src: ./slides/workshop/hyperparams.md
+src: ./slides/workshop-linear/hyperparams.md
 ---
 ---
-src: ./slides/workshop/sgd.md
+src: ./slides/workshop-linear/sgd.md
 ---
 ---
-src: ./slides/workshop/remember-sgd.md
+src: ./slides/workshop-linear/remember-sgd.md
 ---
 ---
-src: ./slides/workshop/univariate-workshop.md
+src: ./slides/workshop-linear/univariate-workshop.md
 ---
 ---
-src: ./slides/workshop/congrats-linear.md
+src: ./slides/workshop-linear/congrats-linear.md
 ---
 ---
-src: ./slides/workshop/multivariate.md
+src: ./slides/workshop-linear/multivariate.md
 ---
 ---
-src: ./slides/workshop/feature-scaling.md
+src: ./slides/workshop-linear/feature-scaling.md
 ---
 ---
-src: ./slides/workshop/feature-scaling-2.md
+src: ./slides/workshop-linear/feature-scaling-2.md
 ---
 ---
-src: ./slides/workshop/feature-scaling-code.md
+src: ./slides/workshop-linear/feature-scaling-code.md
 ---
 ---
-src: ./slides/workshop/multivariate-workshop.md
+src: ./slides/workshop-linear/multivariate-workshop.md
 ---
 ---
-src: ./slides/workshop/congrats-linear-2.md
+src: ./slides/workshop-linear/congrats-linear-2.md
 ---
