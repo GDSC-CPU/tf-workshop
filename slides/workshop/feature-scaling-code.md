@@ -35,7 +35,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 scaler = MinMaxScaler()
 scaler.fit(X) # get min and max, store internally
-scaler.transform(X) # scale
+scaler.transform(X) # scale!!
 ```
 
 Using NumPy only and vectorization powers 💪💪:
