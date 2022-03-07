@@ -1,9 +1,12 @@
-# <twemoji-man-technologist /><twemoji-woman-technologist /> You do it
+<h1>
+  <twemoji-man-technologist /><twemoji-woman-technologist /> Your turn! &nbsp; &nbsp; &nbsp; &nbsp; 
+  😱😱😱 <em>already?</em> 🐎🐎🐎
+</h1>
 
 <div></div>
 
 I prepared a notebook that contains **156** <twemoji-double-exclamation-mark />
-training data, just to spare the audience a lot of 🖖<twemoji-keyboard />🖖
+training data, just to spare the participants a lot of 🖖<twemoji-keyboard />🖖
 pain.
 
 
