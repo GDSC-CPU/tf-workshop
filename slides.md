@@ -103,7 +103,30 @@ src: ./slides/tools/jupyter-how.md
 src: ./slides/tools/tensorflow.md
 ---
 
-
+---
+src: ./slides/workshop/hello.md
+---
+---
+src: ./slides/workshop/vectorization-2.md
+---
+---
+src: ./slides/workshop/lots.md
+---
+---
+src: ./slides/workshop/vectorized-bench-2.md
+---
+---
+src: ./slides/workshop/vectorized-bench-1.md
+---
+---
+src: ./slides/workshop/fast.md
+---
+---
+src: ./slides/workshop/feasible.md
+---
+---
+src: ./slides/workshop/fun-fact.md
+---
 ---
 src: ./slides/workshop/recall.md
 ---
@@ -120,6 +143,9 @@ src: ./slides/workshop/bias-2.md
 src: ./slides/workshop/y-mx-plus-b.md
 ---
 ---
+src: ./slides/workshop/idea.md
+---
+---
 src: ./slides/workshop/guess-lines.md
 ---
 ---
@@ -132,9 +158,6 @@ src: ./slides/workshop/loss.md
 src: ./slides/workshop/mse.md
 ---
 ---
-src: ./slides/workshop/vectorization-1.md
----
----
 src: ./slides/workshop/vectorized-demo.md
 ---
 ---
@@ -144,22 +167,7 @@ src: ./slides/workshop/code-excited.md
 src: ./slides/workshop/lots.md
 ---
 ---
-src: ./slides/workshop/vectorization-2.md
----
----
-src: ./slides/workshop/vectorized-bench-2.md
----
----
-src: ./slides/workshop/vectorized-bench-1.md
----
----
-src: ./slides/workshop/fast.md
----
----
-src: ./slides/workshop/feasible.md
----
----
-src: ./slides/workshop/fun-fact.md
+src: ./slides/workshop/vectorization-1.md
 ---
 ---
 src: ./slides/workshop/remember-mse.md
@@ -190,9 +198,6 @@ src: ./slides/workshop/sgd.md
 ---
 ---
 src: ./slides/workshop/remember-sgd.md
----
----
-src: ./slides/workshop/linear-regression.md
 ---
 ---
 src: ./slides/workshop/congrats-linear.md

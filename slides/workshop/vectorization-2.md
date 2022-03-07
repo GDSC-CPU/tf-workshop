@@ -15,7 +15,8 @@ layout: two-cols
       <img src="/images/radeon.png" style="width: 20px; height: 20px; display: inline " /> on
       <logos-tux /> only
     </a>
-- on the images, differently-colored operations can be done in parallel
+- on the images, differently-colored operations can be done **in parallel**, rather
+  than one at a time
 
 ::right::
 

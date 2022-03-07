@@ -2,18 +2,50 @@
 layout: center
 ---
 
-# Predicting House Prices: A great idea 💡
+# The idea: in visual form
 
-1. start with random values for $w_0$ and $w_1$
-2. determine how wrong the guessed $w_0$ and $w_1$ are
-   - predict the house price $\hat{y}$ with the equation containing guessed $w_0$ and $w_1$
-   - $\hat{y} = w_1x_1 + w_0$, where $x_1$ is the house size
-   - compare how far is the predicted value $\hat{y}$ with the **actual** house price $y$
-   - keep doing this for all data in the training set `#1`, `#2`, `#3`, `#4`, etc...
-     + $\hat{y}^{(1)} = w_1x_1^{(1)} + w_0$, then compare how far is $\hat{y}^{(1)}$ to $y^{(1)}$
-     + $\hat{y}^{(2)} = w_1x_1^{(2)} + w_0$, then compare how far is $\hat{y}^{(2)}$ to $y^{(2)}$
-     + $\hat{y}^{(3)} = w_1x_1^{(3)} + w_0$, then compare how far is $\hat{y}^{(3)}$ to $y^{(3)}$
-     + $\hat{y}^{(4)} = w_1x_1^{(4)} + w_0$, then compare how far is $\hat{y}^{(4)}$ to $y^{(4)}$
-   - average those error values
-3. make another guess, repeat Step 2
-   - 🙏 hopefully with some ~~magic 🌈✨~~ **math** the new $w_0$ and $w_1$ become better guesses
+<div class="flex">
+  <table>
+    <thead>
+      <tr>
+        <th>Size in ft<sup>2</sup></th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0.2</td>
+        <td>0.2</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1.8</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>14</td>
+      </tr>
+    </tbody>
+  </table>
+  <img alt="lines guess" src="/images/idea-pre.jpg" style="width: 600px; height: 400px" />
+</div>

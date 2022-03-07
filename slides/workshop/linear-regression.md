@@ -1,12 +1,3 @@
----
-layout: two-cols
----
-
-# The Single Neuron, again
-
-- Let's code this in <logos-tensorflow />
-
-<img alt="single neuron" src="/images/single-neuron.png" style="width: 350px; height: 175px" />
 
 ```py
 house_prices = np.array([
