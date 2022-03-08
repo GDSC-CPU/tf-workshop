@@ -8,7 +8,7 @@ layout: quote
 
 Quoting from [Analytics Vidhya][1]:
 
-> ##### The presence of feature value X in the formula will affect the step size of the gradient descent. The difference in ranges of features will cause different step sizes for each feature. To ensure that the gradient descent moves smoothly towards the minima and that the steps for gradient descent are updated at the same rate for all the features, we scale the data before feeding it to the model.
+> ##### The presence of feature value X in the formula will affect the step size of the gradient descent. The difference in ranges of features will cause different step sizes for each feature. To ensure that the gradient descent **moves smoothly** towards the minima and that the steps for gradient descent are updated at the same rate for all the features, we scale the data before feeding it to the model.
 
 > #### **Having features on a similar scale can help the gradient descent _converge more quickly towards the minima_.**
 
