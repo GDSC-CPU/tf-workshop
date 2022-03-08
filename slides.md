@@ -257,3 +257,6 @@ src: ./slides/workshop-logistic/circular.md
 ---
 src: ./slides/workshop-logistic/sigmoid.md
 ---
+---
+src: ./slides/workshop-logistic/congrats-sigmoid.md
+---
