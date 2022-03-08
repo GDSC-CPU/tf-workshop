@@ -47,8 +47,8 @@ def cost(X, y, w):
 - **BONUS**: more succinct code
   + almost looks like the equation
 - BTW: in Python
-  - `@` - **THE** matrix multiplication (usually <mdi-check class="text-green-500" />)
-  - `*` - element-wise multiplication (usually <mdi-close class="text-red-500" />)
+  - `@` - **THE** matrix multiplication (*usually <mdi-check class="text-green-500" />*)
+  - `*` - element-wise multiplication (*usually <mdi-close class="text-red-500" />*)
   
 $$
 \begin{bmatrix}a & b \\ c & d \end{bmatrix} * 
