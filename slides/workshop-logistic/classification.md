@@ -22,8 +22,11 @@ layout: two-cols
 
 <img alt="classifier" src="/images/classifier.png" />
 
-- GMail actually learns from people marking email as _"Spam"_ or _"Not spam"_
-  * don't be surprised if you're a Christian, but emails from Bible Gateway
-    end up in your Spam folder.
-  * or emails from your bank end up in spam
-  * legit emails end up in spam coz others _"hate"_ them, and mark them as such
+- 🥴😵 Don't be confused:
+  * While _"fraudulent"_, _"spam"_, and _"malignant"_ are NEGATIVE words in
+    everyday use, in ML they belong to the ***positive class*** because their
+    label is $1$.
+  * If we label _benign_ with $1$ instead, and _malignant_ $0$,
+    - then `benign` belongs to the _positive class_
+    - `NOT benign` belongs to the _negative class_
+      + 👆 _"malignant"_

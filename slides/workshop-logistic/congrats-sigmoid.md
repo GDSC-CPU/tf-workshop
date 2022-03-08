@@ -3,9 +3,9 @@ layout: fact
 ---
 
 <Congratz
-  achievement="on your first activation function"
-  message="Sigmoid"
-  secondary="Remember and UNDERSTAND the how and why"
+  achievement="knowing your first activation function"
+  message="Remember its name: Sigmoid"
+  secondary="Also remember and UNDERSTAND the how and why"
   caveat="Even if you can't remember the formula, TF / Keras will 😉"
 />
 

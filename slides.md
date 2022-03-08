@@ -260,3 +260,12 @@ src: ./slides/workshop-logistic/sigmoid.md
 ---
 src: ./slides/workshop-logistic/congrats-sigmoid.md
 ---
+---
+src: ./slides/workshop-logistic/loss.md
+---
+---
+src: ./slides/workshop-logistic/cross-entropy.md
+---
+---
+src: ./slides/workshop-logistic/congrats-bce.md
+---
