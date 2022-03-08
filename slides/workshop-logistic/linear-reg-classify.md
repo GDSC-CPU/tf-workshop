@@ -14,7 +14,7 @@ layout: two-cols
 
 - line fits perfectly
   - predict `0 (benign)` if $y \lt 0.5$
-  - predict `1 (benign)` if $y \ge 0.5$
+  - predict `1 (malignant)` if $y \ge 0.5$
   
   | Tumor Size |  $y$   | $y >= 0.5?$  | Prediction  |
   |------------|--------|--------------|-------------|
