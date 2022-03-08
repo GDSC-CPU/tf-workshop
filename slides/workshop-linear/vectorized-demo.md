@@ -5,7 +5,7 @@ image: https://i.imgflip.com/67dvmw.jpg
 
 # Vectorized sum of squares
 
-#### If the last slide is 😵💫🥴, they're the same!
+#### If the last slide is <twemoji-face-with-crossed-out-eyes /><twemoji-dizzy /><twemoji-woozy-face />, they're the same!
 
 - Sum of squares, unvectorized
 
