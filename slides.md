@@ -245,3 +245,6 @@ src: ./slides/workshop-logistic/unbounded.md
 ---
 src: ./slides/workshop-logistic/superpower.md
 ---
+---
+src: ./slides/workshop-logistic/superpower-2.md
+---
