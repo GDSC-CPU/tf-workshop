@@ -8,7 +8,7 @@ layout: two-cols
 
 > [When our brain is fed with a lot of information simultaneously, it tries hard to understand and classify the information into “useful” and “not-so-useful” information.][1]
 
-> We need a similar mechanism to 💡light-up neurons for classifying incoming information as “useful” or “less-useful” in the case of **NNs.**
+> We need a similar mechanism to ***"💡light-up neurons"*** for classifying incoming information as “useful” or “less-useful” in the case of **NNs.**
 
 - Activation functions determine the output of **neural networks** like yes or no. It maps the resulting values to a certain range: **0 to 1** or **-1 to 1**, etc.
 
