@@ -16,7 +16,7 @@ layout: two-cols
     ```py
     model.fit(x, y, epochs=500)
     ```
-- we'll also learn other hyperparams in the 2-day workshop
+- other hyperparams we'll learn today / tomorrow:
   * train-test split ratio
   * number of hidden layers in our NN
   * number of units (neurons) in each NN layer

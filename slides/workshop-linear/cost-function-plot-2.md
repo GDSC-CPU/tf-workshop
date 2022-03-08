@@ -10,7 +10,7 @@ Paraboloid? let's remove $\theta_0$ for a simpler 2D parabola
 
 - What do you see?  
   * The lowest cost is when $w_1$ is around **1.5**
-  * our $w_1 = 1.5, w_0 = 1.3$ seems to be a good guess
+  * $w_1 = 1.5, w_0 = 1.3$ seems to be a good guess
 
 ::right::
 
