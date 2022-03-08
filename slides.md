@@ -272,3 +272,9 @@ src: ./slides/workshop-logistic/congrats-bce.md
 ---
 src: ./slides/workshop-logistic/classifier.md
 ---
+---
+src: ./slides/workshop-logistic/classifier-workshop.md
+---
+---
+src: ./slides/workshop-logistic/congrats-logistic.md
+---

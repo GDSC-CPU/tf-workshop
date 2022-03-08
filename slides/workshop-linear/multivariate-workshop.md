@@ -10,7 +10,7 @@ training data, just to spare the participants a lot of ğŸ––<twemoji-keyboard />ğ
 pain.
 
 
-The link will be sent via chat, or just <twemoji-keyboard /> <twemoji-keyboard />
+The notebook's link will be sent via chat, or just <twemoji-keyboard /> <twemoji-keyboard />
 type it out:
 
 ## https://bit.ly/ece4241-ml-01
