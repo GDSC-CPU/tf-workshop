@@ -22,7 +22,7 @@ layout: two-cols
 
 <img alt="classifier" src="/images/classifier.png" />
 
-- 🥴😵 Don't be confused:
+- <twemoji-woozy-face /><twemoji-face-with-crossed-out-eyes /> Don't be confused:
   * While _"fraudulent"_, _"spam"_, and _"malignant"_ are NEGATIVE words in
     everyday use, in ML they belong to the ***positive class*** because their
     label is $1$.

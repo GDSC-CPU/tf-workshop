@@ -13,7 +13,7 @@ It's not much different from linear regression.  We just change a couple of thin
     keras.layers.Dense(
         units=1, 
         input_shape=[1], 
-        activation='sigmoid'
+        activation='sigmoid' # 👈 ADD THIS
     )
     ```
 
