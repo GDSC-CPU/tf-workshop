@@ -25,7 +25,7 @@ It's not much different from linear regression.  We just change a couple of thin
 
 ::right::
 
-3. make a <mdi-function /> to turn $\lt 50\%$ probability to $0$, $\ge 50\%$ to $1$
+3. <twemoji-pencil /> a <mdi-function /> to turn $\lt 50\%$ probability to $0$, $\ge 50\%$ to $1$
     ```py
     def predict(normalized_input):
         # model.predict returns 0 to 1, due to sigmoid
