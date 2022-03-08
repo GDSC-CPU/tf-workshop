@@ -6,7 +6,7 @@ layout: two-cols
 
 <div></div>
 
-$z = Xw$: there are other activation functions that can transform that $z$, 
+💡 $z = Xw$: there are other activation functions that can transform $z$, 
 so a _"temporary variaable"_ is helpful.
 
 $$
