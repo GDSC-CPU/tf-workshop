@@ -99,9 +99,6 @@ src: ./slides/tools/data-cleaning.md
 ---
 src: ./slides/tools/jupyter-how.md
 ---
----
-src: ./slides/tools/tensorflow.md
----
 
 ---
 src: ./slides/workshop-linear/hello.md
@@ -132,6 +129,9 @@ src: ./slides/workshop-linear/numpy.md
 ---
 ---
 src: ./slides/workshop-linear/recall.md
+---
+---
+src: ./slides/tools/tensorflow.md
 ---
 ---
 src: ./slides/workshop-linear/hello-tf.md
