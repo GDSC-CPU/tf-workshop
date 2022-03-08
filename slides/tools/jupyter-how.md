@@ -32,8 +32,10 @@ Google "Colaboratory"
     <logos-scala /> <logos-julia /> <logos-r-lang /> <logos-javascript />
   </span> can use any language
 
-<mdi-heart class="text-yellow-500" /> Colab GPUs, but also <mdi-heart class="text-blue-600" /> your own VSCode setup?
-<a 
-  href="https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb">
-  <img alt="both" src="/images/why-not-both.gif" />
-</a>
+<div class="mt-8"></div>
+
+##### [<mdi-heart class="text-yellow-500" /> Colab GPUs, but also <mdi-heart class="text-blue-600" /> your own VSCode setup?][1]
+
+<img alt="both" src="/images/why-not-both.gif" class="mt-2" />
+
+[1]: https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb
