@@ -47,7 +47,7 @@ model = keras.Sequential([
         activation='sigmoid' # string, not object
     )
 ])
-model.compile(  # note lwoercase 👇
+model.compile(  # note lwoercase 👇 `e`
     loss=keras.losses.BinaryCrossentropy(),
     optimizer=keras.optimizers.SGD()
 )
