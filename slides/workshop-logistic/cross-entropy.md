@@ -47,7 +47,7 @@ $h = \sigma(Xw)$
 
 $J(w) = -\frac{1}{m} \cdot (y^T\log(h) + (1 - y)^T\log(1 - h))$
 
-***Partial Derivative of vectorized $J(w)$***: &nbsp; &nbsp; [<small>Derivation if interested</small>][1]
+***Partial Derivative of vectorized $J(w)$***: &nbsp;[<small>Derivation if interested</small>][1]
 
 $\frac{\partial}{\partial{w}}J(w) = \frac{1}{m}X^T[\sigma(Xw) - y]$
 
