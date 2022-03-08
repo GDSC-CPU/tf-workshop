@@ -29,4 +29,4 @@ $$
 | 5     | 0.9933071491             |
 | 9     | 0.9998766054             |
 
-Interpret $\sigma(z)$ as probability of $y$ being a $1$.
+- Interpret $\sigma(z)$ as probability of $y$ being a $1$.

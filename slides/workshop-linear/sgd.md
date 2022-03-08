@@ -23,7 +23,7 @@ optimizer=keras.optimizers.SGD(learning_rate=0.02)
  <small class="text-gray-500">_(many beginner tutorials teach the simpler BGD)_</small>,
  [only SGD][3].
 
- > **Batch gradient descent** (BGD) is a type of gradient descent which processes all the training examples for each iteration of gradient descent. But if the number of training examples is large, then **batch gradient descent is computationally very expensive.**
+ > **Batch gradient descent** (BGD) is a type of gradient descent which ***processes all the training examples*** for each iteration of gradient descent. But if the number of training examples is large, then **batch gradient descent is computationally very expensive.**
 
  [1]: https://towardsdatascience.com/understanding-gradient-descent-35a7e3007098
  [2]: https://medium.com/@kumaranupam2020/difference-between-batch-gradient-descent-bgd-minibatch-gradient-descent-mgd-and-stochastic-657efcb4194b
