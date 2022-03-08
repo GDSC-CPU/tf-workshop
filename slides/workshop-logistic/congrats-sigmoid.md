@@ -17,7 +17,7 @@ layout: fact
     color: darkorange;
   }
 
-  blockquote {
-    font-size: 1.5em;
+  blockquote .katex {
+    font-size: 3em;
   }
 </style>
