@@ -30,7 +30,7 @@ $J(w) = \frac{1}{2m} \sum\limits_{i=1}^{m} (\frac{1}{1 + e^{-Xw}} - y^{(i)})^2$
 
 <img alt="convex" src="/images/non-convex.png" />
 
-> [Cross entropy cost function with logistic function gives a **convex curve with *one local / global minima***.][3]
+> [Cross entropy cost function with **sigmoid** function gives a **convex curve with *one local / global minima***.][3]
 
 [1]: https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148
 [2]: https://towardsdatascience.com/why-not-mse-as-a-loss-function-for-logistic-regression-589816b5e03c

@@ -25,6 +25,18 @@ It's not much different from linear regression.  We just change a couple of thin
 
 ::right::
 
+3. make a <mdi-function /> to turn $\lt 50\%$ probability to $0$, $\ge 50\%$ to $1$
+    ```py
+    def predict(normalized_input):
+        # model.predict returns 0 to 1, due to sigmoid
+        return model.predict(normalized_input) >= 0.5
+    ```
+
+4. predict using your shiny new function
+    ```py
+    predict(np.array([[38, 75]]))
+    ```
+
 ### Full example (NN part only)
 
 ```py {5|9|all}
@@ -40,3 +52,9 @@ model.compile(
     optimizer=keras.optimizers.SGD()
 )
 ```
+
+<style>
+  .slidev-code {
+    overflow: hidden;
+  }
+</style>
