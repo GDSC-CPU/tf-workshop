@@ -267,5 +267,5 @@ src: ./slides/workshop-logistic/loss.md
 src: ./slides/workshop-logistic/cross-entropy.md
 ---
 ---
-src: ./slides/workshop-logistic/congrats-bce.md
+src: ./slides/workshop-logistic/classifier.md
 ---

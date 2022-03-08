@@ -17,6 +17,6 @@ From Wikipedia:
     ```py
     tf.keras.models.Sequential
     ```
-  * high-level neural networks API, written in <logos-python />
+  * high-level **neural networks** API, written in <logos-python />
   * supports rapid experimentation, prototyping, and has a developer-friendly API
     + 👎 comes up with the cost of losing access to the inner details of TensorFlow
