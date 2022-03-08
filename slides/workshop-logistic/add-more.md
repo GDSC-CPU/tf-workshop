@@ -10,7 +10,7 @@ layout: two-cols
 
 ::right::
 
-# &nbsp;for classification?
+# &nbsp;for classification
   
   | Tumor Size |  $y$   | $y >= 0.5?$  | Prediction  |
   |------------|--------|--------------|-------------|

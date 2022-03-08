@@ -248,3 +248,12 @@ src: ./slides/workshop-logistic/superpower.md
 ---
 src: ./slides/workshop-logistic/superpower-2.md
 ---
+---
+src: ./slides/workshop-logistic/linear-non-linear.md
+---
+---
+src: ./slides/workshop-logistic/circular.md
+---
+---
+src: ./slides/workshop-logistic/sigmoid.md
+---
