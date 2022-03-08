@@ -44,7 +44,7 @@ model = keras.Sequential([
     keras.layers.Dense(
         units=1, 
         input_shape=[1], 
-        activation='sigmoid'
+        activation='sigmoid' # string, not object
     )
 ])
 model.compile(
