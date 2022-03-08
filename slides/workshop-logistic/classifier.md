@@ -20,7 +20,7 @@ It's not much different from linear regression.  We just change a couple of thin
 2. change the loss function
    ```diff
    - loss=keras.losses.MeanSquaredError(),
-   + loss=keras.losses.BinaryCrossEntropy(),
+   + loss=keras.losses.BinaryCrossentropy(),
    ```
 
 ::right::
@@ -47,8 +47,8 @@ model = keras.Sequential([
         activation='sigmoid' # string, not object
     )
 ])
-model.compile(
-    loss=keras.losses.BinaryCrossEntropy(),
+model.compile(  # note lwoercase 👇
+    loss=keras.losses.BinaryCrossentropy(),
     optimizer=keras.optimizers.SGD()
 )
 ```
