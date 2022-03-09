@@ -1,6 +1,6 @@
 # Intuition and Examples for Universal Approx. Theorem
 
-- Boolean Logic is not $y = mx + b$ right?
+- Boolean Logic is not $y = mx + b$ right?  &nbsp; Single neuron can approximate AND, NAND, and OR **functions**.
 
 | $x_1$  | $x_2$  | $z = w_0 + w_1x_1 + w_2x_2$  | $x_1$ AND $x_2$ <br /> $\sigma(z)$ | $z = w_0 + w_1x_1 + w_2x_2$  | $x_1$ NAND $x_2$ <br /> $\sigma(z)$ | $z = w_0 + w_1x_1 + w_2x_2$  | $x_1$ OR $x_2$ <br /> $\sigma(z)$  |
 |--------|--------|------------------------------|------------------------------------|------------------------------|-------------------------------------|------------------------------|------------------------------------|

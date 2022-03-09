@@ -309,3 +309,6 @@ src: ./slides/workshop-nn/universal-approx.md
 ---
 src: ./slides/workshop-nn/intuition.md
 ---
+---
+src: ./slides/workshop-nn/intuition-2.md
+---
