@@ -11,6 +11,8 @@
 - <br>💸 💸 💸 💰 💰 💰 📱 📱 📱<br>
   $x_1$ XOR $x_2$ = $(x_1$ OR $x_2)$ AND $(x_1$ NAND $x_2)$
   
+  <p class="layer pt-4 font-bold">XOR only achievable by using a hidden layer!!</p>
+
 <style>
   td {
     padding: 8px !important;
@@ -27,6 +29,10 @@
 
   ul {
     display: flex;
+  }
+
+  li .layer {
+    font-size: 1em;
   }
 
   ul li:first-child {
