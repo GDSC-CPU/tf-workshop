@@ -10,7 +10,7 @@ layout: fact
 />
 
 ```py
-model.compile(
+model.compile( # note lowercase 👇 'e'
     loss=keras.losses.BinaryCrossentropy()
 )
 ```
