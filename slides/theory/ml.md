@@ -23,6 +23,7 @@ M --> R[Rules]
 
 ::right::
 
-- 💎 HARD 😱: code some complicated logic that tells apart a dog or a cat in a picture
-- ✌ _"EASY"_ ✌: give **tons** of examples of dogs and cats, and have the machine discover patterns
+- <twemoji-gem-stone /> HARD <twemoji-face-screaming-in-fear />: code some complicated logic that tells apart a dog or a cat in a picture
+- <twemoji-victory-hand /> _"EASY"_ <twemoji-victory-hand />: give **tons** of 
+  examples of dogs and cats, and have the machine discover patterns
   ![dog-cat](/images/dog-cat.jpg)

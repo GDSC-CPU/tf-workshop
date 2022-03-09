@@ -18,7 +18,7 @@ layout: two-cols
 
 # Learning rate
 
-- $\alpha$ stands for the **learning rate** (sometimes called ***step size***)
+- $\alpha$ stands for the **learning rate** (a.k.a. ***step size***)
   * too big and you'll overshoot the minimum
   * too small and it'll slow down your model's training
   * $\alpha$ has to be _"just right"_, i.e. find the _"sweet spot"_

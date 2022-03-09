@@ -13,7 +13,7 @@ layout: two-cols
 - Activation functions determine the output of **neural networks** like yes or no. It maps the resulting values to a certain range: **0 to 1** or **-1 to 1**, etc.
 
 - [The need for these activation functions includes converting the linear input signals and models into non-linear output signals, which aids the learning of high order polynomials for deeper networks.][2]
-  * <twemoji-warning /> A neural network without an activation function is **essentially just a linear regression model.**
+  * <twemoji-warning /> A neural network without an activation function is [**essentially just a linear regression model.**][2]
 
 [1]: https://www.analyticsvidhya.com/blog/2020/01/fundamentals-deep-learning-activation-functions-when-to-use-them/
 

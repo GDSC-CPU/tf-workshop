@@ -25,7 +25,7 @@ $Cost(\hat{y}, y) = -y \log(\hat{y}) - (1 - y)\log(1 - \hat{y})$
 
 ::right::
 
-### 👇👇 ***No need to absorb for workshop*** 😹
+### 👇👇 ***No need to absorb for workshop*** <twemoji-cat-with-tears-of-joy />
 
 <kbd>Just here for completeness</kbd>
 

@@ -1,6 +1,6 @@
 # Multivariate is ***almost*** the same
 
-- if you'll predict house price based on 3 **features**: the area ($x_1$), 
+- to predict house price based on 3 **features**: the area ($x_1$), 
   number of bedrooms ($x_2$), and age of the house ($x_3$)...
   * it's still the same formula: $\hat{y} = Xw$, but for 5 training samples,
     now our $X$ and $w$ might look like

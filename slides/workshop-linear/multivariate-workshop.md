@@ -1,6 +1,6 @@
 <h1>
   <twemoji-man-technologist /><twemoji-woman-technologist /> Your turn! &nbsp; &nbsp; &nbsp; &nbsp; 
-  😱😱😱 <em>already?</em> 🐎🐎🐎
+  <twemoji-face-screaming-in-fear /><twemoji-face-screaming-in-fear /><twemoji-face-screaming-in-fear /> <em>already?</em> <twemoji-horse /><twemoji-horse /><twemoji-horse />
 </h1>
 
 <div></div>

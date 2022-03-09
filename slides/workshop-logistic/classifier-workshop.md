@@ -5,7 +5,7 @@
 
 <div></div>
 
-- I prepared a notebook that contains **100** training samples, with each having 2 exam
+- I prepared a notebook that contains **100** training samples, each has 2 exam
 scores and their admission results:  
   - $1$ if admitted, $0$ if not admitted.
 - The machine should classify scores it's never seen before, in a similar pattern 
