@@ -276,5 +276,11 @@ src: ./slides/workshop-logistic/classifier.md
 src: ./slides/workshop-logistic/classifier-workshop.md
 ---
 ---
-src: ./slides/workshop-logistic/congrats-logistic.md
+src: ./slides/workshop-logistic/notebook-meme.md
+---
+---
+src: ./slides/workshop-logistic/loading-saving.md
+---
+---
+src: ./slides/workshop-logistic/load-save-workshop.md
 ---
