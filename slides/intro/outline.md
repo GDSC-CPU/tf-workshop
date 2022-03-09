@@ -29,7 +29,7 @@ layout: two-cols
   - Vanilla neural networks
     * intuition on approximating functions <kbd>⌛ 10m</kbd>
     * handwritten digit recognition <kbd>⌛ 15m</kbd>
-    * experiments + Fasion MNIST <kbd>⌛ 15m</kbd>
+    * experiments + Fashion MNIST <kbd>⌛ 15m</kbd>
     * Video: ALVINN <kbd>⌛ 2m</kbd>
   * convolutional neural networks (CNN)
     * convolutional layers <kbd>⌛ 10m</kbd>
