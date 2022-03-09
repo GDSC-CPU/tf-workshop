@@ -284,3 +284,28 @@ src: ./slides/workshop-logistic/loading-saving.md
 ---
 src: ./slides/workshop-logistic/load-save-workshop.md
 ---
+
+---
+src: ./slides/workshop-nn/day2.md
+---
+---
+src: ./slides/workshop-linear/recall.md
+---
+---
+src: ./slides/theory/ann-1hidden.md
+---
+---
+src: ./slides/theory/ann-2hidden.md
+---
+---
+src: ./slides/workshop-logistic/linear-non-linear.md
+---
+---
+src: ./slides/workshop-logistic/circular.md
+---
+---
+src: ./slides/workshop-nn/universal-approx.md
+---
+---
+src: ./slides/workshop-nn/intuition.md
+---
