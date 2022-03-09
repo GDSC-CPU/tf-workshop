@@ -63,7 +63,7 @@
     color: blue;
   }
 
-  th:nth-child(6), td:nth-child(6) {
+  th:nth-child(6), td:nth-child(6), th:nth-child(5), td:nth-child(5) {
     color: green;
   }
 </style>
