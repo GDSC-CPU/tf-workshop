@@ -14,8 +14,10 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Clean Exported PDF
+        run: "[[ -f slides-export.pdf ]] && rm -v slides-export.pdf"
       - name: Export to PDF
-        run: rm ./slides-export.pdf && npm run export && mv ./slides-export.pdf dist/
+        run: npm run export && mv ./slides-export.pdf dist/
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
