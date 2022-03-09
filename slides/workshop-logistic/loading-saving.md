@@ -5,10 +5,8 @@ layout: two-cols
 # Loading and Saving Models
 
 1. If happy with the accuracy, save as:
-   - `admission` - extensionless
-     - the TensorFlow native format (SavedModel)
-   - `admission.h5` - with an `.h5` extension: 
-     - HDF5 format, [differences with 👆][1]
+   - `admission` - TF native format (SavedModel)
+   - `admission.h5` - HDF5 format &nbsp; &nbsp; [<small>differences w/ 👆</small>][1]
    - [others formats][2] friendlier to other languages <small><i>e.g. JSON</i></small>
 
   ```py
@@ -23,7 +21,12 @@ layout: two-cols
   scaler = MinMaxScaler()
   # fit, transform...
   joblib.dump(scaler, 'admission-scaler.gz')
-  ```   
+
+  # 👇👇 only for notebooks on Google Colab
+  from google.colab import files 
+  files.download('admission.h5')
+  files.download('admission-scaler.gz')
+  ```
 
 [1]: https://www.tensorflow.org/tutorials/keras/save_and_load#saving_custom_objects
 [2]: https://www.tensorflow.org/js/tutorials/conversion/import_keras
@@ -35,7 +38,7 @@ layout: two-cols
 ```py
 import numpy as np
 import tensorflow as tf
-import joblib
+import joblib   # pip install joblib on your PC
 
 from tensorflow import keras
 from sklearn.preprocessing import MinMaxScaler
@@ -57,3 +60,10 @@ should_admit = result.item()
 
 print('Admitted' if should_admit else 'Sorry 😭')
 ```
+
+<style>
+  small {
+    color: green;
+    font-style: italic;
+  }
+</style>
