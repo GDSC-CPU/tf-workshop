@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Clean Exported PDF
-        run: "[[ -f slides-export.pdf ]] && rm -v slides-export.pdf"
+        run: "[[ ! -f slides-export.pdf ]] || rm -v slides-export.pdf"
       - name: Export to PDF
         run: npm run export && mv ./slides-export.pdf dist/
       - name: Deploy pages
