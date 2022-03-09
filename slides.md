@@ -128,10 +128,10 @@ src: ./slides/workshop-linear/fun-fact.md
 src: ./slides/workshop-linear/numpy.md
 ---
 ---
-src: ./slides/workshop-linear/recall.md
----
----
 src: ./slides/tools/tensorflow.md
+---
+---
+src: ./slides/workshop-linear/recall.md
 ---
 ---
 src: ./slides/workshop-linear/hello-tf.md
