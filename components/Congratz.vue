@@ -15,6 +15,7 @@
       default: ''
     },
     compact: {
+      type: Boolean,
       default: false,
     }
   })
@@ -34,7 +35,7 @@
 
   <h2>{{ secondary }}</h2>
 
-  <div class="text-gray-400 italic mt-16 text-xl" :class="[marginClass]">
+  <div class="text-gray-400 italic text-xl" :class="[marginClass]">
     {{ caveat }}
   </div>
 </template>
