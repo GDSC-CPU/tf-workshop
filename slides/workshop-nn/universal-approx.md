@@ -6,7 +6,7 @@ layout: quote
 
 <div class="mt-8"></div>
 
-> #### [The ***universal approximation theorem***][2] says that neural networks can approximate any function. Now, this is powerful. Because, what this means is that **any task** that can be thought of as a function computation, can be performed/computed/**approximated** by neural networks.
+> #### [The ***universal approximation theorem***][2] says that **neural networks can approximate any function**. Now, this is powerful. Because, what this means is that **any task** that can be thought of as a function computation, can be performed/computed/**approximated** by neural networks.
 
 * Almost any task that neural network does today is a function computation:
   * language translation
