@@ -8,7 +8,8 @@ Google "Colaboratory"
 
 - <mdi-cloud class="text-blue-400" /> cloud-based, zero configuration required
   * you don't need a Python environment installed
-- <img src="/images/nvidia.png" style="width: 20px; height: 20px; display: inline " /> Free access to GPUs
+- <img src="/images/nvidia.png" style="width: 20px; height: 20px; display: inline " /> Free access to
+  _"datacenter"_ GPUs
   * faster, and more VRAM than [budget gaming laptops][1]
   * [GTX 1080 is only around 15% faster on average][3]
 - <mdi-share class="text-orange-400" /> Easy sharing

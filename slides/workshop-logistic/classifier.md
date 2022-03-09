@@ -12,7 +12,7 @@ It's not much different from linear regression.  We just change a couple of thin
     ```py {4|all}
     keras.layers.Dense(
         units=1, 
-        input_shape=[1], 
+        input_shape=[2], 
         activation='sigmoid' # 👈 ADD THIS
     )
     ```
@@ -43,7 +43,7 @@ It's not much different from linear regression.  We just change a couple of thin
 model = keras.Sequential([
     keras.layers.Dense(
         units=1, 
-        input_shape=[1], 
+        input_shape=[2], 
         activation='sigmoid' # string, not object
     )
 ])
