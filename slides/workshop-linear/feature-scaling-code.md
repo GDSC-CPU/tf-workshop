@@ -28,7 +28,7 @@ X = np.array([
 
 ::right::
 
-Using Scikit-learn <small>another library? <twemoji-grinning-face-with-sweat /></small>:
+Using Scikit-learn: <small>ohnoes, another library? <twemoji-grinning-face-with-sweat /></small>
 
 ```py
 from sklearn.preprocessing import MinMaxScaler
