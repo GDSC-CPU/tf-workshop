@@ -4,7 +4,7 @@ layout: two-cols
 
 # Day 1
 
-The power of a single neuron
+<mdi-format-quote-open />The power ⚡ of a single neuron<mdi-format-quote-close />
 
 - Theory <kbd>⌛ 5m</kbd>
   * machine learning
