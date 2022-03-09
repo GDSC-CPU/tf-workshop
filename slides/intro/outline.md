@@ -15,7 +15,7 @@ layout: two-cols
   * Hello <logos-numpy /> NumPy <kbd>⌛ 5m</kbd>
   * Hello <logos-tensorflow /> TensorFlow <kbd>⌛ 5m</kbd>
   * linear regression <kbd>⌛ 35m</kbd>
-    - inclues: loss functions & optimizers
+    - includes: loss functions & optimizers
   * logistic regression <kbd>⌛ 25m</kbd>
   * loading and saving ML models <kbd>⌛ 5m</kbd>
 
