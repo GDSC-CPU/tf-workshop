@@ -29,7 +29,7 @@ are uneven which will cook only half of your <twemoji-meat-on-bone /><twemoji-bi
   [1]: https://towardsdatascience.com/how-neural-networks-solve-the-xor-problem-59763136bdd7
 
   <style>
-    .katex {
-      font-size: 1em;
-    }
+  .katex {
+    font-size: 1em !important;
+  }
   </style>
