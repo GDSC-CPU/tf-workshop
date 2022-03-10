@@ -325,6 +325,9 @@ src: ./slides/workshop-nn/intuition-3.md
 src: ./slides/workshop-nn/intuition-4.md
 ---
 ---
+src: ./slides/workshop-nn/nn-workshop.md
+---
+---
 src: ./slides/workshop-nn/x1000.md
 ---
 ---
