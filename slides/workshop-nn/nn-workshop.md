@@ -13,7 +13,7 @@ layout: two-cols
   * If you can't reach it, that's fine.  [SGD has a randomness element to it.][1]
   
 <div class="flex">
-  <img alt="nn8421" src="/images/nn421.png" style="width: 300px; height: 170px; margin-top: 20px" />  
+  <img alt="nn8421" src="/images/nn421.png" style="width: 300px; height: 150px; margin-top: 20px" />  
   <img alt="nn8421" src="/images/sgd-random.png" style="width: 200px" />
 </div>
 
