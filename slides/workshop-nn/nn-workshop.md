@@ -6,6 +6,7 @@ layout: two-cols
 
 <div></div>
 
+- The last workshop seems to have a non-linear boundary
 - Enhance the classifier you made yesterday:
   * Add a hidden layer with 4 units
   * and another hidden layer with 2 units
