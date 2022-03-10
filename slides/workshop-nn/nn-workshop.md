@@ -9,8 +9,8 @@ layout: two-cols
 - Enhance the classifier you made yesterday:
   * Add a hidden layer with 8 units
   * and another hidden layer with 4 units
-  * <small>got 99-100% accuracy using this NN ($\alpha$ = 0.2, epochs = 1000)</small>
-  * If you can't reach it, that's fine.  [SGD has a randomness element to it.][1]
+  * <small>getting 99-100% accuracy using this NN ($\alpha$ = 0.2, epochs = 1200)</small>
+  * If you can't reach it, that's fine.  [SGD has a <twemoji-backhand-index-pointing-down /> randomness element to it.][1]
   
 <div class="flex">
   <img alt="nn8421" src="/images/nn841.png" style="width: 300px; height: 200px; margin-top: 20px" />  
