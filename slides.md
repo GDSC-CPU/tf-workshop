@@ -324,3 +324,15 @@ src: ./slides/workshop-nn/intuition-3.md
 ---
 src: ./slides/workshop-nn/intuition-4.md
 ---
+---
+src: ./slides/workshop-nn/x1000.md
+---
+---
+src: ./slides/workshop-nn/papers-1.md
+---
+---
+src: ./slides/workshop-nn/papers-2.md
+---
+---
+src: ./slides/workshop-nn/papers-3.md
+---
