@@ -312,3 +312,12 @@ src: ./slides/workshop-nn/intuition.md
 ---
 src: ./slides/workshop-nn/intuition-2.md
 ---
+---
+src: ./slides/workshop-nn/xor.md
+---
+---
+src: ./slides/workshop-nn/xor-code.md
+---
+---
+src: ./slides/workshop-nn/intuition-3.md
+---

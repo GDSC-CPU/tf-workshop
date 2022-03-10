@@ -24,7 +24,8 @@ def cost(x1, y, w1, w0)
 
 - sequential operations / single-threaded
 - **will not scale**
-- [writing your own custom loss functions in <logos-tensorflow /> requires vectorization][1]
+- [writing your own custom loss functions in <logos-tensorflow /> requires vectorization][1]: 
+  \~\~ ***have a "vectorized mentality"*** <twemoji-beaming-face-with-smiling-eyes />
 
 [1]: https://towardsdatascience.com/creating-custom-loss-functions-using-tensorflow-2-96c123d5ce6c
 
