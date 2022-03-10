@@ -321,3 +321,6 @@ src: ./slides/workshop-nn/xor-code.md
 ---
 src: ./slides/workshop-nn/intuition-3.md
 ---
+---
+src: ./slides/workshop-nn/intuition-4.md
+---

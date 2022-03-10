@@ -3,8 +3,8 @@
 Reminder: the only superpowers of our neuron are <mdi-summation /> summation and <mdi-function /> activation.
 
 <div class="flex">
-  <img alt="xor" src="/images/xor-red-green.png" style="height: 150px" />
-  <img alt="xor" src="/images/xor-red-green-2.png" style="width: 480px">
+  <img alt="xor" src="/images/xor-red-green.png" style="height: 170px" />
+  <img alt="xor" src="/images/xor-red-green-2.png" style="height: 200px">
 </div>
 <div class="flex">
   <img alt="xor" src="/images/xor-red-green-sigma.png" style="height: 200px" />
