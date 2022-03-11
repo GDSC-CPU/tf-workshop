@@ -42,4 +42,9 @@ array([[0.],
        [0.]])
 ```
 
+<p class="font-xs italic absolute bottom-42 right-8 opacity-50">
+  In Python, `^` means <i>XOR</i><br />
+  In Discrete Math `^` means <i>"AND"</i>
+</p>
+
 <img alt="drake meme" src="https://i.imgflip.com/683t5p.jpg" style="height: 350px" />

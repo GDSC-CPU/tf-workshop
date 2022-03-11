@@ -18,6 +18,7 @@ optimizer=keras.optimizers.SGD(learning_rate=0.02)
 <h3 class="text-orange-500">TL:DR -- This saves dramatic amounts of computation time.</h3>
 
 > 👎 [The downside of stochastic gradient descent is that it doesn’t find the true minimum as reliably. Instead it has a tendency to get extremely close, then circle the minimum forever. ][1]
+> It basically sacrifices [some accuracy for speed.][2]
 
  <logos-tensorflow /> Tensorflow [only has SGD][3], and doesn't have [BGD][2] built-in 
  <small class="text-gray-500">_(many beginner tutorials teach the <a href="https://medium.com/@kumaranupam2020/difference-between-batch-gradient-descent-bgd-minibatch-gradient-descent-mgd-and-stochastic-657efcb4194b">simpler BGD</a>)_</small>.

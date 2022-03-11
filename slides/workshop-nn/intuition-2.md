@@ -7,7 +7,7 @@
 | 1      | 0      | $\approx 1$                         | $\approx 1$                        | $-30 + 20 + 20 = 10$         | $\approx 1$                        |
 | 1      | 1      | $\approx 0$                         | $\approx 1$                        | $-30 + 0 + 20 = -10$         | $\approx 0$                        |
 
-- <img alt="logic gates" src="/images/xor.png" style="width: 200px; height: 200px;" />
+- <img alt="logic gates" src="/images/xor.png" style="width: 300px; height: 220px;" />
 - <br>💸 💸 💸 💰 💰 💰 📱 📱 📱<br>
   $x_1$ XOR $x_2$ = $(x_1$ OR $x_2)$ AND $(x_1$ NAND $x_2)$
   
@@ -15,8 +15,8 @@
 
 <style>
   td {
-    padding: 8px !important;
-    font-size: 0.75em;
+    padding: 4px !important;
+    /* font-size: 0.75em; */
   }
 
   th {
@@ -29,6 +29,7 @@
 
   ul {
     display: flex;
+    margin-top: 16px;
   }
 
   li .layer {

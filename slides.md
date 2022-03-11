@@ -137,6 +137,9 @@ src: ./slides/workshop-linear/recall.md
 src: ./slides/workshop-linear/hello-tf.md
 ---
 ---
+src: ./slides/workshop-linear/model-dense.md
+---
+---
 src: ./slides/workshop-linear/recall.md
 ---
 ---
