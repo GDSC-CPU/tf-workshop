@@ -355,6 +355,18 @@ src: ./slides/workshop-nn/test-train-split.md
 src: ./slides/workshop-nn/congrats-train-test.md
 ---
 ---
+src: ./slides/workshop-nn/mnist-grid.md
+---
+---
+src: ./slides/workshop-nn/mnist-single.md
+---
+---
+src: ./slides/workshop-nn/mnist-nn.md
+---
+---
+src: ./slides/workshop-nn/congrats-flatten.md
+---
+---
 src: ./slides/workshop-nn/adam.md
 ---
 ---

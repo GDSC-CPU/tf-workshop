@@ -10,7 +10,7 @@ layout: two-cols
     + an image of 100x100 pixels = 10k inputs if graysale, 30k if colored (RGB)
   * if you train with 30,000 pictures of cats and 30,000 pictures of dogs, then
     + that's 60,000 rows _(1 row per training sample)_
-  * $10,000 \times 60,000$ matrix? _Take that EMath 2200!!_
+  * $60,000 \times 10,000$ matrix? _Take that EMath 2200!!_
   * Each neuron (_green circle_) is also a matrix 😁😁
   * Many operations are safe to do in parallel
     - e.g. addition, multiplication, summation
