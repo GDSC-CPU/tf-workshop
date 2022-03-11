@@ -1,11 +1,10 @@
 # [Train-test Split][1]
 
-- What we did in the Admissions Classifier workshop is just measuring the accuracy
-  of our training
+- What we did in the Admissions Classifier workshop is just measuring the ***accuracy
+  of our training***
   * we tested our model against **data it has already seen**
   * TensorFlow also gives us this via the [***accuracy*** metric][2]
-    <small>and I let you do this the ha
-    rd way?? <twemoji-smiling-face-with-horns /><twemoji-smiling-face-with-horns /></small>
+    <small>and I let you do this the hard way?? <twemoji-smiling-face-with-horns /><twemoji-smiling-face-with-horns /></small>
   ```py
   model.compile(optimizer=sgd, loss=bce, metrics=['accuracy'])
   ```

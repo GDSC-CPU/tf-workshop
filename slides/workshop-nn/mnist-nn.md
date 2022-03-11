@@ -36,10 +36,10 @@ keras.layers.Flatten()(training_images).shape
 
 (a.k.a. _[let's not have a $60000 \times 28 \times 28$ ~~matrix~~ tensor][1]_)
 
-Turns one training image from this:
+Turns one training image from:
 
 $\begin{bmatrix}1 & 0 & 2 \\ 4 & 6 & 1 \\ 3 & 1 & 5 \end{bmatrix}$
-&nbsp; &nbsp; into this &nbsp; &nbsp; 
+&nbsp; &nbsp; into &nbsp; &nbsp; 
 $\begin{bmatrix}1 & 0 & 2 & 4 & 6 & 1 & 3 & 1 & 5 \end{bmatrix}$
 
 _but we usually draw layer neurons vertically, it's more like_

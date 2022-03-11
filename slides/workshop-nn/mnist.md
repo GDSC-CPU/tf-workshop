@@ -18,7 +18,7 @@ layout: two-cols
 mnist = tf.keras.datasets.mnist
 ```
 
-* Many popular datasets are _"built-in"_, or _"preloaded"_ in many ML libraries
+* Many **popular** datasets are _"built-in"_, or _"preloaded"_ in many ML libraries
   - Boston Housing is one example: we don't have to load house pricing data from a CSV
   - although this dataset has [ethical issues][1], and was [deprecated][2] in Scikit-learn
 * **Convenience:** gets rid of distractions in bringing your own images, loading CSVs, etc.
