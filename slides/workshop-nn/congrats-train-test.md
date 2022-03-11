@@ -6,7 +6,7 @@ layout: fact
 <Congratz
   achievement="knowing an industry best-practice in ML"
   message="Train-test Split"
-  secondary='You have just "held out" a portion of your data from the machine.'
+  secondary='You have just "hidden" a portion of your data from the machine.'
   caveat="Though it was already split by TF/Keras for us, the last exercise today will let you do this yourself."
   compact
 />

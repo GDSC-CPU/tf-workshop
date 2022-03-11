@@ -261,6 +261,9 @@ src: ./slides/workshop-logistic/circular.md
 src: ./slides/workshop-logistic/sigmoid.md
 ---
 ---
+src: ./slides/workshop-logistic/sigmoid-meme.md
+---
+---
 src: ./slides/workshop-logistic/congrats-sigmoid.md
 ---
 ---
@@ -350,4 +353,22 @@ src: ./slides/workshop-nn/test-train-split.md
 ---
 ---
 src: ./slides/workshop-nn/congrats-train-test.md
+---
+---
+src: ./slides/workshop-nn/adam.md
+---
+---
+src: ./slides/workshop-nn/optimizers-many.md
+---
+---
+src: ./slides/workshop-nn/congrats-adam.md
+---
+---
+src: ./slides/workshop-nn/backprop.md
+---
+---
+src: ./slides/workshop-nn/vanishing.md
+---
+---
+src: ./slides/workshop-nn/vanishing-2.md
 ---
