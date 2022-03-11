@@ -27,7 +27,7 @@ What's `keras.layers.Flatten()`?
 training_images.shape # (60000, 28, 28)
 
 keras.layers.Flatten()(training_images).shape
-# (60000, 784)
+# (60000, 784)      # 👆 Python __call__ (callables)
 ```
 
 ::right::
