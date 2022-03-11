@@ -11,7 +11,7 @@ layout: two-cols
 - by *Diederik Kingma* from OpenAI and *Jimmy Ba* from the University of Toronto
 - 2015 ICLR _(<small>International Conference on Learning Representations</small>)_ paper 
   _"Adam: A Method for Stochastic Optimization"_
-- SDG maintains a single learning rate (termed $alpha$) for all weight updates
+- SDG maintains a single learning rate (termed $\alpha$) for all weight updates
   - learning rate does not change during training.
 - Adam learning rate is maintained for each network weight and separately adapted as learning 
   unfolds.
