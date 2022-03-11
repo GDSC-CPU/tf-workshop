@@ -7,7 +7,7 @@ layout: two-cols
 It's not much different from linear regression.  We just change a couple of things:
 
 1. we now **add** an activation function to our **NEURON** 
-   - _actually the entire layer_
+   - _actually ALL neurons in the entire layer_ will have the **same activation function**
    - only that right now, our layer has only one neuron
     ```py {4|all}
     keras.layers.Dense(

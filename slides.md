@@ -342,3 +342,12 @@ src: ./slides/workshop-nn/papers-2.md
 ---
 src: ./slides/workshop-nn/papers-3.md
 ---
+---
+src: ./slides/workshop-nn/mnist.md
+---
+---
+src: ./slides/workshop-nn/test-train-split.md
+---
+---
+src: ./slides/workshop-nn/congrats-train-test.md
+---

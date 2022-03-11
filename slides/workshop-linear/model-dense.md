@@ -2,7 +2,7 @@
 layout: two-cols
 ---
 
-# NumPy Code, Numpy Code
+# NumPy Array, Numpy Slice
 
 From the Keras docs:
 
@@ -14,7 +14,7 @@ _There are two other models, which is out of scope for the workshop._
 
 ::right::
 
-# and...panic 🤯🤯
+# ...and...panic 🤯🤯
 
 From Wikipedia:
 
