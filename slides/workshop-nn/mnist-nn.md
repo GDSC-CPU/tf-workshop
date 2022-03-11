@@ -34,7 +34,7 @@ keras.layers.Flatten()(training_images).shape
 
 # Flatten Layer
 
-(a.k.a. _[let's not have a 60000x28x28 ~~matrix~~ tensor][1]_)
+(a.k.a. _[let's not have a $60000 \times 28 \times 28$ ~~matrix~~ tensor][1]_)
 
 Turns one training image from this:
 

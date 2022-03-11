@@ -5,24 +5,25 @@ layout: two-cols
 # Visualize a single image
 
 ```py
-# Play with this in your notebook
-index = 4241 # indices are from 0 to 59_999
-
 # Set number of characters per row when printing
 np.set_printoptions(linewidth=320)
 
-# Print the traiing label 
-print(f'LABEL: {training_labels[index]}')
+def show_image(index):# Print the traiing label 
+    print(f'LABEL: {training_labels[index]}', '\n')
 
-# and the image's matrix representation
-print(f'\nIMAGE MATRIX:\n {training_images[index]}')
+    # and the image's matrix representation
+    print(f'MATRIX:\n {training_images[index]}')
 
-plt.imshow(training_images[index], cmap='gray')
+    plt.imshow(training_images[index], cmap='gray')
+
+# Play with this in your notebook
+show_image(14_344) # indices are from 0 to 59_999
+show_image(4_241)  # yeah lucky number
 ```
 
-Here you see the image's actual image, and its matrix representation.
-- 0 is black, it gets brighter with values nearer 255
-- also notice the axes (too small), it's still showing 28x28
+- Here you see the image's actual image, and its matrix representation.
+- minus the numbers to indicate the pixels' brightness, the matrix does look 
+  like the handwritten digit image right?
 
 ::right::
 
