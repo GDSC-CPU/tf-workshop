@@ -10,7 +10,7 @@ layout: fact
 />
 
 
-> $\frac{1}{1 + e^{-z}}$
+> $\sigma(z) = \frac{1}{1 + e^{-z}}$
 
 <style>
   .katex {
@@ -18,6 +18,6 @@ layout: fact
   }
 
   blockquote .katex {
-    font-size: 3em;
+    font-size: 2em !important; 
   }
 </style>
