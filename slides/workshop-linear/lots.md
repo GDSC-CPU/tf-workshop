@@ -6,7 +6,7 @@ layout: two-cols
 
 - <twemoji-warning /> **Spoiler alert**: Example for image classification
   
-  * image pixels [**flattened**][1] such that they become a single ROW in a matrix
+  * image pixels are [**flattened**][1] such that they become a single ROW in a matrix
     + an image of 100x100 pixels = 10k inputs if graysale, 30k if colored (RGB)
   * if you train with 30,000 pictures of cats and 30,000 pictures of dogs, then
     + that's 60,000 rows _(1 row per training sample)_
