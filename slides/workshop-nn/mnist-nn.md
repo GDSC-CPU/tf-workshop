@@ -16,8 +16,8 @@ model = tf.keras.models.Sequential([
 ])
 
 model.compile(
-    optimizer=keras.optimizers.SGD(),
-    loss='sparse_categorical_crossentropy', # ❓
+    optimizer=keras.optimizers.SGD(),      # 👇🔻❓
+    loss=keras.losses.SparseCategoricalCrossentropy(), 
     metrics=['accuracy']
 )
 

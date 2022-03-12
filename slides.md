@@ -376,6 +376,15 @@ src: ./slides/workshop-nn/softmax.md
 src: ./slides/workshop-nn/congrats-softmax.md
 ---
 ---
+src: ./slides/workshop-nn/cce-scce.md
+---
+---
+src: ./slides/workshop-nn/congrats-scce.md
+---
+---
+src: ./slides/workshop-nn/mnist-nn-clear.md
+---
+---
 src: ./slides/workshop-nn/adam.md
 ---
 ---
