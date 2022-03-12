@@ -4,6 +4,8 @@ layout: two-cols
 
 # [Meet Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/)
 
+Adaptive moment estimation
+
 - an extension to **stochastic gradient descent**
 - has recently seen broader adoption in 
   - **computer vision** and 
@@ -11,7 +13,7 @@ layout: two-cols
 - by *Diederik Kingma* from OpenAI and *Jimmy Ba* from the University of Toronto
 - 2015 ICLR _(<small>International Conference on Learning Representations</small>)_ paper 
   _"Adam: A Method for Stochastic Optimization"_
-- SDG maintains a single learning rate (termed $\alpha$) for all weight updates
+- SDG maintains a single learning rate (termed $\alpha$)
   - learning rate does not change during training.
 - Adam learning rate is maintained for each network weight and separately adapted as learning 
   unfolds.

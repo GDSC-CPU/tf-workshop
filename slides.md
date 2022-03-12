@@ -411,3 +411,9 @@ src: ./slides/workshop-nn/vanishing.md
 ---
 src: ./slides/workshop-nn/vanishing-2.md
 ---
+---
+src: ./slides/workshop-nn/relu.md
+---
+---
+src: ./slides/workshop-nn/congrats-relu.md
+---
