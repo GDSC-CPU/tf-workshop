@@ -385,6 +385,12 @@ src: ./slides/workshop-nn/congrats-scce.md
 src: ./slides/workshop-nn/mnist-nn-clear.md
 ---
 ---
+src: ./slides/workshop-nn/did-you-get.md
+---
+---
+src: ./slides/workshop-nn/congrats-nn.md
+---
+---
 src: ./slides/workshop-nn/adam.md
 ---
 ---

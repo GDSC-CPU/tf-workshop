@@ -36,10 +36,10 @@ Also from the [Keras docs][2]:
 - If $y$ looks like this:  
   <small>each row is an array of 1s and 0s</small>
 $y = \begin{bmatrix}
-    0 & 0 & 1 \\
-    1 & 0 & 0 \\
-    0 & 1 & 0 \\
-    0 & 0 & 1 
+    0 & 0 & 0 & 0 & 1 \\
+    0 & 0 & 0 & 1 & 0 \\
+    1 & 0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 & 1 
   \end{bmatrix}
 $  
 <br>use **CCE**
@@ -48,10 +48,10 @@ $
 <small>each row is JUST AN INTEGER</small>
 $
   y = \begin{bmatrix}
-    2 \\
-    0 \\ 
-    1 \\
-    2 \\
+    4 \\
+    3 \\ 
+    0 \\
+    4
   \end{bmatrix}
 $  
 <br>use **SCCE**
