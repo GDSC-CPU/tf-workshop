@@ -379,6 +379,9 @@ src: ./slides/workshop-nn/congrats-softmax.md
 src: ./slides/workshop-nn/cce-scce.md
 ---
 ---
+src: ./slides/workshop-nn/cce-scce-2.md
+---
+---
 src: ./slides/workshop-nn/congrats-scce.md
 ---
 ---

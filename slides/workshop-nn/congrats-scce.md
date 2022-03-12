@@ -19,7 +19,7 @@ layout: fact
   ```
 
 - 
-  > It even has a [similar formula][1]: $J = -\sum\limits_{i = 1}^{n}y_ilog(p_i)$  
+  > It even has a [similar formula][1]: $J = -\sum\limits_{i = 1}^{n}y_i\log(p_i)$  
   > where $n$ is the number of classes,  
   > and $p_i$ is the softmax probability for the $i^{th}$ class
 
