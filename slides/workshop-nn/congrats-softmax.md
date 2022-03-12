@@ -4,9 +4,10 @@ layout: fact
 
 <Congratz
   achievement="knowing your second activation function"
-  message="Softmax"
+  message="Remember its name: Softmax"
   secondary="Also remember and UNDERSTAND the how and why."
   caveat="It's used only in the output layer, and only for multi-class classification."
+  compact
 />
 
 ```py
@@ -22,7 +23,7 @@ keras.layers.Dense(number_of_classes, activation='softmax')
 
 <style>
   .shiki-container {
-    margin-top: 32px;
+    margin-top: 16px;
     text-align: left;
     width: 60%;
     margin-left: auto;
