@@ -2,7 +2,7 @@
 layout: two-cols
 ---
 
-# Keras Converts SCCE 
+# <logos-tensorflow /> / Keras Converts SCCE 
 
 ```py
 y_true = np.array([
