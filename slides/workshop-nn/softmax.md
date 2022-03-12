@@ -19,6 +19,12 @@ layout: two-cols
 $softmax(z_i) = \frac{e^{z_i}}{\sum\limits_{j=1}^{K}e^{z_j}}$, 
 <span class="where">where $K$ = # of classes</span>
 
+<p class="text-green-600 text-sm absolute top-24 right-12 italic">
+  <a href="https://datascience.stackexchange.com/a/24112">
+    Why the need for <b>e<sup>z</sup></b>?
+  </a>
+</p>
+
 <img alt="softmax fix" src="/images/softmax-fix.png" />
 
 | $z$                               | $e^{z_i}$    |  $softmax(z_i)$   |
