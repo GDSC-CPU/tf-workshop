@@ -6,7 +6,7 @@ layout: fact
   achievement="knowing your third loss function"
   message="Sparse Categorical Cross Entropy"
   secondary="Another long and scary name to remember!"
-  caveat="It's actually similar to Binary Cross Entropy."
+  caveat="It's actually similar to Binary Cross Entropy, but for multi-class classification."
   compact
 />
 
@@ -32,7 +32,6 @@ layout: fact
   }
 
   blockquote {
-    color: goldenrod;
     flex: 1;
     text-align: left;
   }
@@ -48,5 +47,9 @@ layout: fact
 
   ul li {
     list-style: none;
+  }
+  
+  li p {
+    color: goldenrod;
   }
 </style>
