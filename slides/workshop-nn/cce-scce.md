@@ -60,9 +60,11 @@ $
   ul {
     display: flex;
     margin-top: 0px;
+    margin-left: 8px;
   }
 
   h6 {
+    margin-left: 8px !important;
     font-size: 0.9em !important;
     text-transform: none !important;
     margin-bottom: 0px;
