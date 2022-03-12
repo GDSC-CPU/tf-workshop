@@ -367,6 +367,12 @@ src: ./slides/workshop-nn/mnist-nn.md
 src: ./slides/workshop-nn/congrats-flatten.md
 ---
 ---
+src: ./slides/workshop-nn/multiclass.md
+---
+---
+src: ./slides/workshop-nn/softmax.md
+---
+---
 src: ./slides/workshop-nn/adam.md
 ---
 ---
