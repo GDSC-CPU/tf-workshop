@@ -394,15 +394,6 @@ src: ./slides/workshop-nn/did-you-get.md
 src: ./slides/workshop-nn/congrats-nn.md
 ---
 ---
-src: ./slides/workshop-nn/adam.md
----
----
-src: ./slides/workshop-nn/optimizers-many.md
----
----
-src: ./slides/workshop-nn/congrats-adam.md
----
----
 src: ./slides/workshop-nn/backprop.md
 ---
 ---
@@ -416,4 +407,16 @@ src: ./slides/workshop-nn/relu.md
 ---
 ---
 src: ./slides/workshop-nn/congrats-relu.md
+---
+---
+src: ./slides/workshop-nn/adam.md
+---
+---
+src: ./slides/workshop-nn/optimizers-many.md
+---
+---
+src: ./slides/workshop-nn/congrats-adam.md
+---
+---
+src: ./slides/workshop-nn/experiments.md
 ---

@@ -12,10 +12,8 @@ layout: fact
 <div class="text-gray-500 italic mb-8">
   Don't forget about our old friend sigmoid.  It's is still a valid activation 
   in <a href="https://towardsdatascience.com/how-to-choose-the-right-activation-function-for-neural-networks-3941ff0e6f9c">some types of NN like RNNs</a>.
-
-  <p class="text-green-600 not-italic">
-    It's also a great activation function for the output layer of a binary classifier.
-  </p>
+  
+  Sigmoid is also a great activation function for the output layer of a binary classifier.
 </div>
 
 ```py
