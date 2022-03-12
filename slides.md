@@ -373,6 +373,9 @@ src: ./slides/workshop-nn/multiclass.md
 src: ./slides/workshop-nn/softmax.md
 ---
 ---
+src: ./slides/workshop-nn/congrats-softmax.md
+---
+---
 src: ./slides/workshop-nn/adam.md
 ---
 ---
