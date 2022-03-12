@@ -23,8 +23,8 @@ model.compile(
 
 # you should get around 89% accuracy w/ just 5 epochs
 model.fit(
-    training_images_norm, 
-    training_labels, 
+    training_images_norm, # used to call this `X_norm`
+    training_labels,      # used to call this `y`
     epochs=5
 )
 ```
@@ -42,19 +42,18 @@ keras.layers.Flatten()(training_images).shape
 # (60000, 784)      # 👆 Python __call__ (callables)
 ```
 
-Turns one training image:
-
-from
+Converts
 $\begin{bmatrix}1 & 0 & 2 \\ 4 & 6 & 1 \\ 3 & 1 & 5 \end{bmatrix}$
 &nbsp; &nbsp; into &nbsp; &nbsp; 
 $\begin{bmatrix}1 & 0 & 2 & 4 & 6 & 1 & 3 & 1 & 5 \end{bmatrix}$
 
 <div class="flex p-0 m-0">
-  <img alt="flatten" src="/images/flatten.png" style="height: 180px; margin-left: auto; margin-right: auto; flex: 4" />
+  <img alt="flatten" src="/images/flatten.png" style="height: 220px; margin-left: auto; margin-right: auto; flex: 5" />
 
-  <p style="flex: 3" class="p-4">
+  <p style="flex: 3" class="pl-2">
     but we usually <strike>draw</strike> visualize layer neurons vertically, 
-    so the <b>input layer</b> <i>kinda</i> receives pixel values <i>like this 👈</i> 
+    so the <b>input layer</b> <i>kinda</i> receives pixel values from <b>one</b>
+    training image <i>like this 👈</i> 
   </p>
 </div>
 
