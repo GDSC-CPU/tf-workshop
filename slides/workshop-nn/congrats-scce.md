@@ -19,20 +19,17 @@ layout: fact
   ```
 
 - 
-  > It even has a [similar formula][1]: $J = -y^T\log(p)$  
-  > where $n$ is the number of classes,  
-  > and $p_i$ is the softmax probability for the $i^{th}$ class
-
-[1]: https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e
+  > It even has a similar formula:
+  > $$
+  > J = -y \odot \log(p)
+  > $$  
 
 <style>
   .shiki-container {
     text-align: left;
-    flex: 1;
   }
 
   blockquote {
-    flex: 1;
     text-align: left;
   }
 
@@ -43,6 +40,7 @@ layout: fact
   ul {
     display: flex !important;
     flex-direction: row;
+    justify-content: center;
   }
 
   ul li {

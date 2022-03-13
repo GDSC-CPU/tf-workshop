@@ -22,11 +22,19 @@ scce(y_true, y_pred).numpy()
 # array([0.05129329, 2.30258512])
 ```
 
-$J = -\sum\limits_{i = 1}^{n}y_i\log(p_i)$, &nbsp; &nbsp; or vectorized 
-$J = y^T\log(p)$
+[vectorized cost function: $J = y \odot \log(p)$][1]
 
 where $n$ is the number of classes,  
+$\odot$ means _Hadamard_ (element-wise) product,  
 and $p_i$ is the softmax probability for the $i^{th}$ class
+
+
+<p class="text-xs text-green-600 italic absolute bottom-14 left-74">
+  👇 Wow, it's actually a thing?
+</p>
+
+
+[1]: https://towardsdatascience.com/categorical-cross-entropy-and-softmax-regression-780e8a2c5e8c
 
 ::right::
 
