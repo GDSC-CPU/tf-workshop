@@ -55,7 +55,7 @@ cce(y_true_onehot, y_pred).numpy()
 
 <style>
   td {
-    padding: 5px;
+    padding: 5px !important;
   }
 
   td i, td em {
