@@ -2,7 +2,7 @@
 layout: two-cols
 ---
 
-# [Meet Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/)
+# [Converge Faster with Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/)
 
 Adaptive moment estimation
 
@@ -20,12 +20,12 @@ Adaptive moment estimation
 
 ::right::
 
+### Change the optimizer from `SGD` to `Adam`.  What happened to your accuracy after 5 epochs?
+
 <img alt="adam graph" src="/images/optimizer-comp.gif" style="height: 280px; width: 400px; margin-left: auto; margin-right: auto" />
 
 > [Many other algorithms have been made on top of gradient descent][1]
-> - Adagrad
-> - RMSprop
-> - **Adam**
+> - Adagrad, RMSprop, **Adam**, etc.
 
 > [Gradient Descent is the backbone](https://medium.com/analytics-vidhya/all-about-gradient-descent-in-machine-learning-and-deep-learning-3dea4b269bf0) of every machine learning algorithm and it also acts as a base for many deep learning optimizers.
 
@@ -34,6 +34,12 @@ Adaptive moment estimation
 <style>
   blockquote {
     margin-left: 16px;
-    margin-top: 16px;
+    margin-top: 8px;
+  }
+
+  h3 {
+    font-size: 1.2em !important;
+    margin-bottom: 4px;
+    font-weight: bold;
   }
 </style>

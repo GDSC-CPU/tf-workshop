@@ -29,7 +29,7 @@ def relu(z): return max(0, z)
 
 <img alt="relu" src="/images/relu-light.png" />
 
-2. No vanishing gradient, [only saturates when $z \lt 0$][4]
+2. Less chances of vanishing gradient
 
 <img alt="relu gradient" src="/images/saturation.png" />
   
@@ -39,7 +39,6 @@ def relu(z): return max(0, z)
 [1]: https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/
 [2]: https://towardsdatascience.com/how-to-choose-the-right-activation-function-for-neural-networks-3941ff0e6f9c
 [3]: https://en.wikipedia.org/wiki/Recurrent_neural_network
-[4]: https://wandb.ai/ayush-thakur/dl-question-bank/reports/ReLU-vs-Sigmoid-Function-in-Deep-Neural-Networks-Why-ReLU-is-so-Prevalent--VmlldzoyMDk0MzI
 
 <style>
   small {

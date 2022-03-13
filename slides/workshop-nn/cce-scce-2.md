@@ -22,14 +22,15 @@ scce(y_true, y_pred).numpy()
 # array([0.05129329, 2.30258512])
 ```
 
-[vectorized cost function: $J = y \odot \log(p)$][1]
+CCE [vectorized cost function: $J = y \odot \log(p)$][1]
 
-where $n$ is the number of classes,  
+<div class="mt-8"></div>
+
 $\odot$ means _Hadamard_ (element-wise) product,  
-and $p_i$ is the softmax probability for the $i^{th}$ class
+and $p$ is a matrix of softmax probability of $y_{pred}$
 
 
-<p class="text-xs text-green-600 italic absolute bottom-14 left-74">
+<p class="text-xs text-green-600 italic absolute bottom-16 left-70">
   👇 One of the few times `A * B` is 👌
 </p>
 
@@ -38,7 +39,7 @@ and $p_i$ is the softmax probability for the $i^{th}$ class
 
 ::right::
 
-# ...into CCE
+# ...into CCE &nbsp; &nbsp; &nbsp; <small>Why do you think so?</small>
 
 ```py
 y_true_onehot = np.array([
@@ -69,5 +70,11 @@ cce(y_true_onehot, y_pred).numpy()
   td i, td em {
     color: darkorange;
     padding-left: 16px;
+  }
+
+  small {
+    font-size: 0.5em;
+    font-style: italic;
+    color: darkgray;
   }
 </style>
