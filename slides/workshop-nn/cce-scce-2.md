@@ -30,7 +30,7 @@ and $p_i$ is the softmax probability for the $i^{th}$ class
 
 
 <p class="text-xs text-green-600 italic absolute bottom-14 left-74">
-  👇 Wow, it's actually a thing?
+  👇 One of the few times `A * B` is 👌
 </p>
 
 
