@@ -42,8 +42,8 @@ array([[0.],
        [0.]])
 ```
 
-<p class="font-xs italic absolute bottom-42 right-8 opacity-50">
-  In Python, `^` means <i>XOR</i><br />
+<p class="font-xs italic absolute bottom-42 right-35 text-gray-400 text-xs m-0 p-0">
+  In Python, `^` means <i>"XOR"</i><br />
   In Discrete Math `^` means <i>"AND"</i>
 </p>
 

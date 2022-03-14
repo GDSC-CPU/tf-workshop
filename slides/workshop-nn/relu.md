@@ -9,8 +9,8 @@ _a.k.a. "another simple formula with a scary name"_
 $
 R(z) = \begin{cases}
   0, & \text{if } z \gt 0\\
-  x, & \text{otherwise}
-\end{cases} = max(0, x)
+  z, & \text{otherwise}
+\end{cases} = max(0, z)
 $
 
 ```python
