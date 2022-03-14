@@ -426,3 +426,37 @@ src: ./slides/workshop-nn/relu.md
 ---
 src: ./slides/workshop-nn/congrats-relu.md
 ---
+
+---
+src: ./slides/workshop-cnn/cnn.md
+---
+---
+src: ./slides/workshop-cnn/filters.md
+---
+---
+src: ./slides/workshop-cnn/cnn-2.md
+---
+---
+src: ./slides/workshop-cnn/cnn-3.md
+---
+---
+src: ./slides/workshop-cnn/cnn-4.md
+---
+---
+src: ./slides/workshop-cnn/cnn-5.md
+---
+---
+src: ./slides/workshop-cnn/cnn-demo.md
+---
+---
+src: ./slides/workshop-cnn/cnn-colored.md
+---
+---
+src: ./slides/workshop-cnn/pooling.md
+---
+---
+src: ./slides/workshop-cnn/arrangement-2.md
+---
+---
+src: ./slides/workshop-cnn/conv-pool-exp.md
+---
