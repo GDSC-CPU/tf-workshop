@@ -5,7 +5,7 @@ You already have this vanilla neural network:
 ```py
 model = keras.models.Sequential([
     keras.layers.Flatten(),
-    keras.layers.Dense(128, activation='sigmoid'), 
+    keras.layers.Dense(128, activation='relu'), 
     keras.layers.Dense(10, activation='softmax')
 ])
 ```
@@ -20,7 +20,7 @@ model = keras.models.Sequential([
     keras.layers.Conv2D(32, (3,3), activation='relu'),
     keras.layers.MaxPooling2D(2,2),
     keras.layers.Flatten(),
-    keras.layers.Dense(128, activation='sigmoid'), 
+    keras.layers.Dense(128, activation='relu'), 
     keras.layers.Dense(10, activation='softmax')
 ]) # what would be the accuracy on `model.fit(...)` and `model.evaluate(...)`??
 ```

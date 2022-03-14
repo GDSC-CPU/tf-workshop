@@ -463,3 +463,9 @@ src: ./slides/workshop-cnn/conv-pool-exp.md
 ---
 src: ./slides/workshop-cnn/cnn-fmnist-workshop.md
 ---
+---
+src: ./slides/workshop-cnn/congrats-cnn.md
+---
+---
+src: ./slides/workshop-cnn/graduation.md
+---
