@@ -455,6 +455,9 @@ src: ./slides/workshop-cnn/pooling.md
 src: ./slides/workshop-cnn/arrangement-2.md
 ---
 ---
+src: ./slides/workshop-cnn/arrangement.md
+---
+---
 src: ./slides/workshop-cnn/conv-pool-exp.md
 ---
 ---
