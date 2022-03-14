@@ -3,7 +3,7 @@
 Notebook courtesy of Coursera and [DeepLearning.AI](https://www.deeplearning.ai/)
 
 https://bit.ly/ece4241-ml-04: ***no TF or Keras code here, just normal coding with <logos-python />***
-<small>(although the image was taken from `scipy`)</small>
+<small>(although the pic was taken from `scipy`)</small>
 
 <div class="outer flex">
   <img alt="ascent" src="/images/ascent-orig.jpg" />
