@@ -397,6 +397,9 @@ src: ./slides/workshop-nn/congrats-nn.md
 src: ./slides/workshop-nn/adam.md
 ---
 ---
+src: ./slides/workshop-nn/adam-quote.md
+---
+---
 src: ./slides/workshop-nn/optimizers-many.md
 ---
 ---

@@ -30,7 +30,7 @@ Fashion MNIST are more _"complicated"_, so lower accuracy compared to
 _"digits"_ MNIST is understandable.
 - Try reconfiguring NN hyperparameters, while making observations on
   training accuracy, testing accuracy, and training time.
-  <sup><u>🍲 for thought</u>:  What's 0.5% of 60,000, and of 10,000?</sup>
+  <small><u>🍲 for thought</u>:  What's 0.5% of 60,000, and of 10,000?</small>
   1. Change the optimizer from `SGD()` to `Adam()` and vice versa in any of the combos below.
   2. Change the activation from `sigmoid` to `relu`. 
      -                           What's that? 👆❓😮😱
@@ -50,7 +50,7 @@ _"digits"_ MNIST is understandable.
     font-style: italic;
   }
 
-  sup {
+  small {
     font-style: italic !important;
     color: green;
     font-size: 0.75em;
