@@ -460,3 +460,6 @@ src: ./slides/workshop-cnn/arrangement-2.md
 ---
 src: ./slides/workshop-cnn/conv-pool-exp.md
 ---
+---
+src: ./slides/workshop-cnn/cnn-fmnist-workshop.md
+---

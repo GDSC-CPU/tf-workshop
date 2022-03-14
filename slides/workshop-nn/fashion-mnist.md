@@ -3,7 +3,6 @@ layout: two-cols
 ---
 
 # Your turn: Fashion MNIST
-
 MNIST w/ a twist: grayscale images of fashion items
 
 ```py
@@ -31,6 +30,9 @@ mnist = keras.datasets.fashion_mnist
 
 <img alt="fashion" src="/images/fashion.jpg" style="height: 480px" />
 
+<p class="absolute left-72 bottom-44 text-3xl">
+  <twemoji-man-technologist /><twemoji-woman-technologist />
+</p>
 <Countdown class="absolute right-35 bottom-20 text-orange-600" style="font-size: 2em;" />
 
 <style>

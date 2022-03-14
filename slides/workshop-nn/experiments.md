@@ -2,9 +2,9 @@
 layout: two-cols
 ---
 
-# Experiments
+# <twemoji-man-scientist /><twemoji-woman-scientist /><twemoji-test-tube /> Experiments
 
-Notebook: 
+Notebook: TBA
 
 - Try breaking your code.  What happens if you...
   1. try to remove the `Flatten()` layer?
