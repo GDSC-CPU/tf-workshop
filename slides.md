@@ -437,9 +437,6 @@ src: ./slides/workshop-cnn/filters.md
 src: ./slides/workshop-cnn/cnn-2.md
 ---
 ---
-src: ./slides/workshop-cnn/cnn-3.md
----
----
 src: ./slides/workshop-cnn/cnn-4.md
 ---
 ---
