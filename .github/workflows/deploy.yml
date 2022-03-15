@@ -18,6 +18,8 @@ jobs:
         run: "[[ ! -f slides-export.pdf ]] || rm -v slides-export.pdf"
       - name: Export to PDF
         run: npm run export && mv ./slides-export.pdf dist/
+      - name: Copy TF page
+        run: cp ./public/tf.html dist/
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
