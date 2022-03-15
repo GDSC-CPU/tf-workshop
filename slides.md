@@ -394,9 +394,6 @@ src: ./slides/workshop-nn/did-you-get.md
 src: ./slides/workshop-nn/congrats-nn.md
 ---
 ---
-src: ./slides/workshop-nn/digit-recog-js.md
----
----
 src: ./slides/workshop-nn/adam.md
 ---
 ---
