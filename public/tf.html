@@ -74,7 +74,7 @@
 
     context.fillStyle = 'black'
     context.fillRect(0, 0, canvas.width, canvas.height)
-    model = await tf.loadLayersModel('/model.json')
+    model = await tf.loadLayersModel('/ml-workshop/model.json')
   }
 
   const updateCoords = (event) => {
