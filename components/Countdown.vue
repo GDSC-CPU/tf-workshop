@@ -36,7 +36,7 @@ const setInitialTime = (seconds: number) => {
     <div style="width: 100%; font-size: 0.9em;" v-else>
       ⌛ Time's up!
     </div>
-    <div class="buttons">
+    <div class="timer-buttons">
       <button :disabled="started" @click.prevent="setInitialTime(120)">02:00</button>
       <button :disabled="started" @click.prevent="setInitialTime(300)">05:00</button>
       <button :disabled="started" @click.prevent="setInitialTime(600)">10:00</button>
@@ -58,7 +58,7 @@ const setInitialTime = (seconds: number) => {
     flex-direction: column;
   }
 
-  button {
+  .timer-buttons button {
     font-size: 0.3em;
     padding: 4px;
     border: 1px solid goldenrod;
@@ -66,11 +66,11 @@ const setInitialTime = (seconds: number) => {
     margin: 16px;
   }
 
-  button:hover {
+  .timer-buttons button:hover {
     background-color: gold;
   }
 
-  button:disabled {
+  .timer-buttons button:disabled {
     background-color: gray;
     border: 1px splid darkgray !important;
     color: darkgray;
