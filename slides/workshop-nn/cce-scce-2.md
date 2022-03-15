@@ -60,7 +60,7 @@ cce(y_true_onehot, y_pred).numpy()
 | $y_{pred}$    | $[0.04, 0.95, 0.01]$     | $[0.1, 0.8, 0.1]$      |
 | $p$           | $[0.22, 0.56, 0.22]$     | $[0.25, 0.50, 0.25]$   |
 | $-\log(p)$    | $[3.22, 0.05, 4.61]$     | $[2.30, 0.22, 2.30]$   |
-| $-y^T\log(p)$ | $0.05$ _(small penalty)_ | $2.3$ _(big penalty)_  |
+| $-y \odot \log(p)$ | $0.05$ _(small penalty)_ | $2.3$ _(big penalty)_  |
 
 <style>
   td {
