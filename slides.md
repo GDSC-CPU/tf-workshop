@@ -472,3 +472,30 @@ src: ./slides/workshop-cnn/congrats-cnn.md
 ---
 src: ./slides/workshop-cnn/graduation.md
 ---
+---
+src: ./slides/workshop-cnn/own-images.md
+---
+---
+src: ./slides/workshop-cnn/own-images-2.md
+---
+---
+src: ./slides/workshop-cnn/own-images-3.md
+---
+---
+src: ./slides/workshop-cnn/own-images-4.md
+---
+---
+src: ./slides/workshop-cnn/own-images-5.md
+---
+---
+src: ./slides/workshop-cnn/own-images-6.md
+---
+---
+src: ./slides/workshop-cnn/own-images-7.md
+---
+---
+src: ./slides/workshop-cnn/final-advice.md
+---
+---
+src: ./slides/workshop-cnn/final-advice-2.md
+---
