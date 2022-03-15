@@ -1,4 +1,4 @@
 ---
 layout: iframe
-url: /tf.html
+url: /ml-workshop/tf.html
 ---
