@@ -17,7 +17,7 @@ layout: fact
   but <b><i>it's a great achievement!</i></b>
 </p>
 
-BTW: [here's a demo](/ml-workshop/tf.html).  Make sure your handwriting is quite centered, just like the
+BTW: [here's a demo](/tf-workshop/tf.html).  Make sure your handwriting is quite centered, just like the
 training samples.
 
 [1]: https://levelup.gitconnected.com/neural-network-from-scratch-handwritten-digit-recognizer-ca9f0672fe0c
