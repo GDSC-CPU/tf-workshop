@@ -3,8 +3,8 @@
 dowmload: 'https://psse-cpu.github.io/ml-workshop/slides-export.pdf'
 theme: seriph
 fonts:
-  sans: 'Tinos'
-  serif: 'Tinos'
+  sans: 'Crimson Pro'
+  serif: 'Crimson Pro'
   mono: 'Fira Code'
   italic: true
 # random image from a curated Unsplash collection by Anthony
