@@ -326,6 +326,9 @@ src: ./slides/workshop-logistic/notebook-meme.md
 src: ./slides/workshop-logistic/loading-saving.md
 ---
 ---
+src: ./slides/workshop-logistic/will-smith.md
+---
+---
 src: ./slides/workshop-logistic/load-save-workshop.md
 ---
 
