@@ -24,3 +24,6 @@ You can code in any language, preferably
 </div>
 
 ![math](/images/math.png)
+
+* We'll also need <logos-dart /> Dart for the <logos-flutter /> apps we'll make.
+  * but this is secondary and not a priority

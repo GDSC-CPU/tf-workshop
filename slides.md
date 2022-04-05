@@ -9,7 +9,7 @@ fonts:
   italic: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cdn.pixabay.com/photo/2018/05/08/08/46/artificial-intelligence-3382509_960_720.png
+background: https://cdn.pixabay.com/photo/2018/06/27/12/55/artificial-neural-network-3501528__340.png
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -26,21 +26,53 @@ drawings:
   persist: false
 ---
 
-# Artificial Intelligence in 3 Hours
+<div class="gridlines bg-gray-900/85 rounded-3xl p-8">
+  <h3>#machineIsStillLearning</h3>
+  <h1><logos-tensorflow /> Tensorflow Workshop</h1>
+  <h4>
+    <img alt="cpu" src="/images/cpu-logo.png" />
+    <img alt="gdsc" src="/images/cpu-gdsc.png" />
+  </h4>
 
-<b>ECE 4241</b> Seminars / Colloquium / Field Study
+  <CoverDetails />
+</div>
 
-<!-- ./components/CoverDetails.vue -->
-<CoverDetails />
+<style>
+  .gridlines {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, teal 1px, transparent 1px),
+      linear-gradient(to bottom, teal 1px, transparent 1px);
+  }
+
+  h4 {
+    display: inline;
+  }
+
+  h3 {
+    color: skyblue;
+    font-weight: 700;
+  }
+
+  h4 img {
+    display: inline;
+    height: 64px;
+  }
+</style>
 
 ---
 src: ./slides/intro/impossible.md
 ---
 ---
-src: ./slides/intro/cover-2.md
----
----
 src: ./slides/intro/outline.md
+---
+---
+layout: image
+image: /images/eat.png
+---
+---
+layout: image
+image: /images/ai-startup.png
 ---
 ---
 src: ./slides/intro/assumptions.md

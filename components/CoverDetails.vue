@@ -3,20 +3,24 @@
     border-bottom: 0px;
     margin-right: 4px;
   }
+
+  .when-where span {
+    margin-left: 16px;
+  }
 </style>
 
 <template>
-<div class="pt-12">
-  <mdi-calendar /> March 14 & 15
-  <mdi-clock /> 5:30-7:00
-  <mdi-map-marker /> Virtual
+<div class="pt-12 when-where">
+  <span class="text-red-400"><mdi-calendar /> April 6 and 9</span>
+  <span class="text-green-400"><mdi-clock /> 1:30-4:30 pm GMT+8</span>
+  <span class="text-yellow-400"><mdi-map-marker /> Virtual</span>
 </div>
-<div class="mt-2 text-gray-400">
+<div class="mt-2 text-blue-400">
   <span class="bg-gray-800/50 p-2 rounded-3xl">
     <mdi-github-face />
-    <a href="https://github.com/psse-cpu/ml-workshop/">Git repo</a>
+    <a href="https://github.com/gdsc-cpu/tf-workshop/">Git repo</a>
     <mdi-file-pdf class="ml-4" /> 
-    <a href="https://psse-cpu.github.io/ml-workshop/slides-export.pdf">PDF version</a>
+    <a href="https://gdsc-cpu.github.io/tf-workshop/slides-export.pdf">PDF version</a>
   </span>
 </div>
 

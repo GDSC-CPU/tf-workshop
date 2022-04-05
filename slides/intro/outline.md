@@ -14,10 +14,10 @@ layout: two-cols
   * Hello <logos-jupyter /> Jupyter <kbd>⌛ 10m</kbd>
   * Hello <logos-numpy /> NumPy <kbd>⌛ 5m</kbd>
   * Hello <logos-tensorflow /> TensorFlow <kbd>⌛ 5m</kbd>
-  * linear regression <kbd>⌛ 35m</kbd>
-    - includes: loss functions & optimizers
-  * logistic regression <kbd>⌛ 25m</kbd>
+  * linear regression <kbd>⌛ 45m</kbd>
+  * logistic regression <kbd>⌛ 45m</kbd>
   * loading and saving ML models <kbd>⌛ 5m</kbd>
+    * <logos-flutter /> Flutter and TF Lite <kbd>⌛ 30m</kbd>
 
 ::right::
 
@@ -25,15 +25,15 @@ layout: two-cols
 
 🧠🧠🧠 MMMOOOOAAAARRR neurons
 
-- More intense 💪 webinar + workshops
-  - Vanilla neural networks
-    * intuition on approximating functions <kbd>⌛ 10m</kbd>
-    * handwritten digit recognition <kbd>⌛ 15m</kbd>
-    * experiments + Fashion MNIST <kbd>⌛ 15m</kbd>
-    * Video: ALVINN <kbd>⌛ 2m</kbd>
-  * convolutional neural networks (CNN)
-    * convolutional layers <kbd>⌛ 10m</kbd>
-    * pooling layers <kbd>⌛ 10m</kbd>
-    * training with your own images <kbd>⌛ 20m</kbd>
-    * Video: Cassava Plant Disease Detection <kbd>⌛ 3m</kbd>
-- Final Advice <kbd>⌛ 5m</kbd>
+- Vanilla neural networks
+  * intuition on approximating functions <kbd>⌛ 15m</kbd>
+  * handwritten digit recognition <kbd>⌛ 15m</kbd>
+  * Flutter Handwritten Digits Classifier <kbd>⌛ 20m</kbd>
+  * * experiments + Fashion MNIST <kbd>⌛ 20m</kbd>
+  * Video: ALVINN <kbd>⌛ 3m</kbd>
+* convolutional neural networks (CNN)
+  * convolutional and pooling layers <kbd>⌛ 20m</kbd>
+  * training with your own images <kbd>⌛ 20m</kbd>
+  * Video: Cassava Plant Disease Detection <kbd>⌛ 3m</kbd>
+* Image Classification App with <logos-flutter /><kbd>⌛ 45m</kbd>
+* Final Advice <kbd>⌛ 5m</kbd>
