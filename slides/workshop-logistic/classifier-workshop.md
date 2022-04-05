@@ -16,6 +16,6 @@ to the training set.
 The notebook's link will be sent via chat, or just <twemoji-keyboard /> <twemoji-keyboard />
 ✋type it out:🤚
 
-## https://bit.ly/ece4241-ml-02
+## https://bit.ly/gdsccpu-tf02
 
 <Countdown class="text-orange-500 mt-16" />
