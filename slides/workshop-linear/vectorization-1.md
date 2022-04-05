@@ -13,7 +13,7 @@ layout: two-cols
 
 <img alt="dont" src="/images/dont.gif" style="width: 400px; height: 200px" />
 
-<img class="neuron mt-4" alt="neuron" src="/images/single-neuron.png" />
+<img class="neuron mt-4" alt="neuron" src="/images/single-neuron.png" style="height: 170px" />
 
 :: right::
 

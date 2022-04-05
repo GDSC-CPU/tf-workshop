@@ -178,6 +178,9 @@ src: ./slides/workshop-linear/recall.md
 src: ./slides/workshop-linear/power-neuron.md
 ---
 ---
+src: ./slides/workshop-linear/power-neuron-2.md
+---
+---
 src: ./slides/workshop-linear/bias.md
 ---
 ---
@@ -236,6 +239,9 @@ src: ./slides/workshop-linear/hyperparams.md
 ---
 ---
 src: ./slides/workshop-linear/sgd.md
+---
+---
+src: ./slides/workshop-linear/sgd-2.md
 ---
 ---
 src: ./slides/workshop-linear/remember-sgd.md

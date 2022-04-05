@@ -28,7 +28,7 @@ layout: two-cols
 - Vanilla neural networks
   * intuition on approximating functions <kbd>⌛ 15m</kbd>
   * handwritten digit recognition <kbd>⌛ 15m</kbd>
-  * Flutter Handwritten Digits Classifier <kbd>⌛ 20m</kbd>
+  * <logos-flutter /> Handwritten Digits Classifier App <kbd>⌛ 20m</kbd>
   * * experiments + Fashion MNIST <kbd>⌛ 20m</kbd>
   * Video: ALVINN <kbd>⌛ 3m</kbd>
 * convolutional neural networks (CNN)

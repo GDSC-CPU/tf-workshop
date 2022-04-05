@@ -17,7 +17,7 @@ layout: two-cols
 - Jupyter _"keeps track"_ of variables
 
 ```py
-# Cell 1
+# Code Cell 1
 x = 5
 x
 ```
@@ -28,20 +28,20 @@ x
 ```
 
 ```py
-# Cell 2
+# Code Cell 2
 x ** 2 + 1 
 ```
 
 ```sh
-# Output cell
+# Output cell 2
 26
 ```
 
 ```py
-# Cell 3
+# Code Cell 3
 x *= 4
 ```
 
 - `x` is now `20`
-- Rerunning _Cell 2_ would produce 401
+- Rerunning _Code Cell 2_ would produce 401
   - even if it looks like it should be 26

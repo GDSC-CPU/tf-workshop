@@ -13,7 +13,7 @@ pain.
 The notebook's link will be sent via chat, or just <twemoji-keyboard /> <twemoji-keyboard />
 type it out:
 
-## https://bit.ly/ece4241-ml-01
+## https://bit.ly/gdsccpu-tf01
 
 <Countdown class="text-orange-500 mt-16" />
 
