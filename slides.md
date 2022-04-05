@@ -64,15 +64,15 @@ drawings:
 src: ./slides/intro/impossible.md
 ---
 ---
-src: ./slides/intro/outline.md
----
----
 layout: image
 image: /images/eat.png
 ---
 ---
 layout: image
 image: /images/ai-startup.png
+---
+---
+src: ./slides/intro/outline.md
 ---
 ---
 src: ./slides/intro/assumptions.md
