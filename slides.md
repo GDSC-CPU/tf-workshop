@@ -26,9 +26,9 @@ drawings:
   persist: false
 ---
 
-<div class="gridlines bg-gray-900/85 rounded-3xl p-8">
+<div class="gridlines bg-gray-800/85 rounded-3xl p-8">
   <h3>#machineIsStillLearning</h3>
-  <h1><logos-tensorflow /> Tensorflow Workshop</h1>
+  <h1><logos-openai-icon /> Machine Learning Workshop</h1>
   <h4>
     <img alt="cpu" src="/images/cpu-logo.png" />
     <img alt="gdsc" src="/images/cpu-gdsc.png" />
@@ -62,6 +62,9 @@ drawings:
 
 ---
 src: ./slides/intro/impossible.md
+---
+---
+src: ./slides/intro/cover-2.md
 ---
 ---
 layout: image
@@ -327,6 +330,18 @@ src: ./slides/workshop-logistic/loading-saving.md
 ---
 ---
 src: ./slides/workshop-logistic/will-smith.md
+---
+---
+src: ./slides/workshop-logistic/tflite.md
+---
+---
+src: ./slides/workshop-logistic/tflite-2.md
+---
+---
+src: ./slides/workshop-logistic/tflite-3.md
+---
+---
+src: ./slides/workshop-logistic/tflite-4.md
 ---
 ---
 src: ./slides/workshop-logistic/load-save-workshop.md

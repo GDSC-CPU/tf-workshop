@@ -23,7 +23,7 @@ layout: two-cols
 
 # Day 2
 
-🧠🧠🧠 MMMOOOOAAAARRR neurons
+🧠🧠🧠 ~~MOAR neurons~~ <logos-tensorflow /> for a single neuron is OVERKILL
 
 - Vanilla neural networks
   * intuition on approximating functions <kbd>⌛ 15m</kbd>
