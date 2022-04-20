@@ -444,7 +444,13 @@ src: ./slides/workshop-nn/congrats-scce.md
 src: ./slides/workshop-nn/mnist-nn-clear.md
 ---
 ---
+src: ./slides/workshop-nn/callbacks.md
+---
+---
 src: ./slides/workshop-nn/did-you-get.md
+---
+---
+src: ./slides/workshop-nn/callbacks.md
 ---
 ---
 src: ./slides/workshop-nn/congrats-nn.md
@@ -551,4 +557,7 @@ src: ./slides/workshop-cnn/final-advice.md
 ---
 ---
 src: ./slides/workshop-cnn/final-advice-2.md
+---
+---
+src: ./slides/workshop-cnn/big.md
 ---

@@ -14,15 +14,16 @@
    Get its File ID:
 
    ```sh
-   https://drive.google.com/file/d/1-OsSKExQU7JJP-4PuXYerBA5-rlt_qpB/view?usp=sharing
+   https://drive.google.com/file/d/1gMzpFgGyF1KMJhsMJ2pqDOGYgg98_ghJ/view?usp=sharing
    #                               ^___________THIS ONE____________^
    ```
 
-3. Download it from Colab using the Colab-exclusive `gdown` command.  Write this
+3. Download it from Colab using the [`gdown`][1] command preinstalled by Colab.  Write this
    command on a Jupyter cell.  `!` means a Linux command, since the Colab VM
    is an Ubuntu Linux machine.
 
   ```sh
-  !gdown --id 1-OsSKExQU7JJP-4PuXYerBA5-rlt_qpB
+  !gdown --id 1gMzpFgGyF1KMJhsMJ2pqDOGYgg98_ghJ
   ```
 
+[1]: https://pypi.org/project/gdown/
